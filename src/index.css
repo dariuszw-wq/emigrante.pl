@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+/* Tokeny projektu — źródło: README handoffu (1:1) */
+@theme {
+  --color-navy: #0b1f3a;
+  --color-navy-hover: #163060;
+  --color-navy-link: #1e4a8a;
+  --color-lime: #c8f31d;
+  --color-lime-hover: #b9e30f;
+  --color-lime-tint: #eef8c4;
+  --color-lime-text: #3f5a0a;
+  --color-lime-deep: #2a3a14;
+  --color-olive: #7a8a55;
+  --color-dot: #6aa300;
+  --color-ground: #fcfbf8;
+  --color-ink: #0b1f3a;
+  --color-ink-2: #3d4b5f;
+  --color-muted: #5a687c;
+  --color-faint: #7a8a9c;
+  --color-star: #e0a800;
+  --color-photo: #dfe3ea;
+
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-sans: "Manrope", sans-serif;
+
+  --shadow-float: 0 10px 30px rgba(11, 31, 58, 0.15);
+  --shadow-card: 0 12px 30px rgba(11, 31, 58, 0.08);
+  --shadow-service: 0 14px 34px rgba(11, 31, 58, 0.08);
+
+  --animate-marquee-up: marquee-up 28s linear infinite;
+  --animate-marquee-down: marquee-down 28s linear infinite;
+
+  @keyframes marquee-up {
+    from { transform: translateY(0); }
+    to { transform: translateY(-50%); }
+  }
+  @keyframes marquee-down {
+    from { transform: translateY(-50%); }
+    to { transform: translateY(0); }
+  }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--color-ground);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    text-wrap: pretty;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+  input[type="range"] { accent-color: var(--color-navy); }
+  @media (prefers-reduced-motion: reduce) {
+    .animate-marquee-up, .animate-marquee-down { animation: none !important; }
+    html { scroll-behavior: auto; }
+  }
+}
+
+@utility container-site {
+  max-width: 1240px;
+  margin-inline: auto;
+  padding-inline: clamp(16px, 4vw, 40px);
+}
+
+@utility kicker {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-olive);
+}
+
+@utility h2-section {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(30px, 3.6vw, 46px);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin-top: 10px;
+}
+
+@utility h3-card {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+@utility hero-mask {
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 10%, #000 90%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 10%, #000 90%, transparent);
+}

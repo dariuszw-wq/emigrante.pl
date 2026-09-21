@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "emigrante.pl — Praca w Polsce, legalnie i bez ukrytych opłat",
+    "description": "Agencja zatrudnienia i legalizacji pobytu dla cudzoziemców w Polsce. Sprawdzeni pracodawcy, umowa przed pierwszą zmianą, obsługa w 5 językach."
+  },
+  "topbar": { "hours": "Pon–Pt 8:00–18:00" },
+  "nav": {
+    "jobs": "Oferty pracy",
+    "services": "Usługi",
+    "legal": "Legalizacja",
+    "employers": "Dla pracodawcy",
+    "cases": "Realizacje",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "apply": "Wyślij zgłoszenie",
+    "menu": "Menu"
+  },
+  "hero": {
+    "badge": "Agencja zatrudnienia · certyfikat KRAZ",
+    "title_before": "Praca w Polsce, ",
+    "title_accent": "legalnie",
+    "title_after": " i bez ukrytych opłat.",
+    "lead": "Łączymy cudzoziemców ze sprawdzonymi pracodawcami i prowadzimy całą legalizację pobytu i pracy. Rozmawiamy w Twoim języku, umowa przed pierwszą zmianą.",
+    "cta_jobs": "Zobacz oferty pracy",
+    "cta_employer": "Jestem pracodawcą",
+    "rating": "4,9 / 5",
+    "rating_note": "na podstawie 380 opinii kandydatów i pracodawców",
+    "stat_hired": "zatrudnionych osób",
+    "stat_employers": "pracodawców w bazie",
+    "stat_years": "lat doświadczenia",
+    "float_title": "Umowa przed pierwszą zmianą",
+    "float_sub": "standard w każdej ofercie"
+  },
+  "logos": { "title": "Zaufali nam pracodawcy z produkcji, logistyki i budownictwa" },
+  "jobs": {
+    "kicker": "Aktualne oferty",
+    "title": "Praca od zaraz, z umową i stawką podaną wprost",
+    "all": "Wszystkie",
+    "produkcja": "Produkcja",
+    "logistyka": "Logistyka",
+    "budownictwo": "Budownictwo",
+    "gastronomia": "Gastronomia",
+    "apply": "Aplikuj",
+    "today": "dziś",
+    "yesterday": "wczoraj",
+    "days_ago": "{{count}} dni",
+    "week_ago": "tydzień",
+    "empty": "Brak ofert w tej kategorii. Zostaw zgłoszenie — odezwiemy się, gdy pojawi się nowa."
+  },
+  "services": {
+    "kicker": "Nasze usługi",
+    "title": "Od rekrutacji do karty pobytu — pod jednym dachem",
+    "more": "Dowiedz się więcej →",
+    "items": [
+      { "title": "Rekrutacja pracowników", "text": "Kandydaci z Ukrainy, Gruzji, Azji i Ameryki Południowej, sprawdzeni pod kątem kwalifikacji i tytułu pobytowego." },
+      { "title": "Zezwolenia na pracę", "text": "Oświadczenia w PUP, zezwolenia typu A, informacja starosty — komplet i terminy po naszej stronie." },
+      { "title": "Karta pobytu", "text": "Zezwolenie na pobyt czasowy i pracę: wniosek do wojewody, załączniki, odciski palców, odbiór karty." },
+      { "title": "Leasing pracowniczy", "text": "Zatrudniamy u siebie i oddelegowujemy do Ciebie. Ty planujesz zmiany, my prowadzimy kadry." },
+      { "title": "Zakwaterowanie i transport", "text": "Miejsca noclegowe blisko zakładu i dowóz na zmianę w ramach jednej faktury." },
+      { "title": "Doradztwo i kontrole", "text": "Obowiązki informacyjne, dokumentacja pod kontrolę PIP i Straży Granicznej, ponaglenia gdy urząd milczy." }
+    ]
+  },
+  "legal": {
+    "kicker": "Dlaczego emigrante",
+    "title": "Legalizacja to nasza praca, nie Twój problem",
+    "photo": "Zdjęcie: opiekun sprawy z kandydatem",
+    "cta": "Sprawdź swoją sytuację",
+    "points": [
+      { "title": "Jeden opiekun sprawy", "text": "Ta sama osoba od zgłoszenia do odbioru karty pobytu. Ten sam numer telefonu." },
+      { "title": "Pilnujemy terminów urzędu", "text": "Gdy sprawa stoi, składamy ponaglenie. Ty pracujesz, my piszemy do wojewody." },
+      { "title": "Zero opłat od kandydata", "text": "Za pośrednictwo płaci pracodawca. Kandydat nie płaci nic — nigdy." },
+      { "title": "Pięć języków obsługi", "text": "Polski, angielski, ukraiński, rosyjski i hiszpański — w rozmowie i w dokumentach." }
+    ]
+  },
+  "stats": {
+    "hired": "osób zatrudnionych legalnie",
+    "cases": "spraw legalizacyjnych zakończonych decyzją",
+    "days": "dni od zgłoszenia do umowy (mediana)",
+    "recommend": "kandydatów poleca nas znajomym"
+  },
+  "calc": {
+    "kicker": "Dla pracodawcy",
+    "title": "Policz koszt zatrudnienia cudzoziemców",
+    "lead": "Szacunek miesięcznego kosztu pracodawcy wraz z jednorazowymi opłatami legalizacyjnymi. Dokładną ofertę przygotujemy po rozmowie.",
+    "workers": "Liczba pracowników",
+    "rate": "Stawka brutto",
+    "rate_unit": "zł/h",
+    "path": "Ścieżka legalizacji",
+    "path_oswiadczenie": "Oświadczenie",
+    "path_zezwolenie": "Zezwolenie na pracę",
+    "path_karta": "Karta pobytu",
+    "result_label": "Szacowany koszt miesięczny",
+    "wages": "Wynagrodzenia brutto ({{hours}} h × {{workers}})",
+    "contrib": "Składki pracodawcy (~20,5%)",
+    "fees": "Opłaty legalizacyjne (jednorazowo)",
+    "cta": "Zgłoś zapotrzebowanie",
+    "disclaimer": "Kwoty orientacyjne, bez PPK i kosztów zakwaterowania. Opłaty skarbowe wg aktualnych stawek urzędowych.",
+    "currency": "zł"
+  },
+  "cases": {
+    "kicker": "Realizacje",
+    "title": "Zespoły, które postawiliśmy na nogi",
+    "all": "Wszystkie case studies",
+    "items": [
+      { "label": "Produkcja spożywcza · Poznań", "title": "48 operatorów linii w 6 tygodni", "text": "Rekrutacja, oświadczenia i zakwaterowanie przed startem trzeciej zmiany.", "photo": "Zdjęcie: hala produkcyjna" },
+      { "label": "Logistyka · Wrocław", "title": "Karty pobytu dla 30 magazynierów", "text": "Przejście z oświadczeń na zezwolenia jednolite bez przerwy w pracy.", "photo": "Zdjęcie: magazyn" },
+      { "label": "Budownictwo · Warszawa", "title": "Brygada zbrojarzy z Gruzji", "text": "Zezwolenia typu A i kontrola PIP zakończona bez uwag.", "photo": "Zdjęcie: budowa" }
+    ]
+  },
+  "testimonials": { "kicker": "Opinie", "title": "Co mówią kandydaci i pracodawcy" },
+  "blog": {
+    "kicker": "Blog",
+    "title": "Aktualności z prawa migracyjnego",
+    "all": "Wszystkie wpisy",
+    "photo": "Grafika wpisu",
+    "items": [
+      { "category": "Legalizacja", "date": "18 wrz 2026", "title": "Nowe terminy rozpatrywania wniosków o pobyt czasowy — co zmienia ustawa" },
+      { "category": "Pracodawca", "date": "9 wrz 2026", "title": "PIP może ustalić stosunek pracy decyzją. Co to znaczy dla zleceń z cudzoziemcami" },
+      { "category": "Kandydat", "date": "1 wrz 2026", "title": "Zmiana pracodawcy z kartą pobytu: kiedy potrzebna jest zmiana zezwolenia" }
+    ]
+  },
+  "form": {
+    "title": "Zostaw numer. Oddzwonimy w Twoim języku.",
+    "lead": "Bezpłatna rozmowa dla kandydatów i pracodawców. Odpowiadamy w dniu roboczym.",
+    "name": "Imię i nazwisko",
+    "contact": "Telefon lub e-mail",
+    "role_candidate": "Szukam pracy",
+    "role_employer": "Zatrudniam",
+    "submit": "Wyślij zgłoszenie",
+    "sending": "Wysyłanie…",
+    "success_title": "Dziękujemy! Zgłoszenie dotarło.",
+    "success_text": "Oddzwonimy lub napiszemy w najbliższym dniu roboczym.",
+    "again": "Wyślij kolejne zgłoszenie",
+    "err_name": "Podaj imię i nazwisko.",
+    "err_contact": "Podaj numer telefonu lub adres e-mail.",
+    "err_contact_format": "To nie wygląda na numer telefonu ani e-mail.",
+    "err_send": "Nie udało się wysłać. Spróbuj ponownie lub zadzwoń."
+  },
+  "footer": {
+    "about": "Agencja zatrudnienia i legalizacji pobytu. Certyfikat KRAZ nr 00000.",
+    "candidate": "Dla kandydata",
+    "candidate_links": ["Oferty pracy", "Legalizacja pobytu", "FAQ", "Formularz aplikacji"],
+    "employer": "Dla pracodawcy",
+    "employer_links": ["Usługi", "Cennik", "Case studies", "Zgłoś zapotrzebowanie"],
+    "contact": "Kontakt",
+    "address": "ul. Przykładowa 1, Warszawa",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "copyright": "© {{year}} emigrante.pl"
+  }
+}

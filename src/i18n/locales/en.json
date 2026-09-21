@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "emigrante.pl — Work in Poland, legally and with no hidden fees",
+    "description": "Employment and residence-legalisation agency for foreigners in Poland. Verified employers, a contract before your first shift, support in 5 languages."
+  },
+  "topbar": { "hours": "Mon–Fri 8:00–18:00" },
+  "nav": {
+    "jobs": "Job offers",
+    "services": "Services",
+    "legal": "Legalisation",
+    "employers": "For employers",
+    "cases": "Case studies",
+    "blog": "Blog",
+    "contact": "Contact",
+    "apply": "Send an enquiry",
+    "menu": "Menu"
+  },
+  "hero": {
+    "badge": "Employment agency · KRAZ certificate",
+    "title_before": "Work in Poland, ",
+    "title_accent": "legally",
+    "title_after": " and with no hidden fees.",
+    "lead": "We connect foreigners with verified employers and handle the entire residence and work legalisation. We speak your language, and you get a contract before your first shift.",
+    "cta_jobs": "See job offers",
+    "cta_employer": "I'm an employer",
+    "rating": "4.9 / 5",
+    "rating_note": "based on 380 reviews from candidates and employers",
+    "stat_hired": "people employed",
+    "stat_employers": "employers in our base",
+    "stat_years": "years of experience",
+    "float_title": "Contract before the first shift",
+    "float_sub": "standard in every offer"
+  },
+  "logos": { "title": "Trusted by employers in manufacturing, logistics and construction" },
+  "jobs": {
+    "kicker": "Current offers",
+    "title": "Work right away, with a contract and a clearly stated rate",
+    "all": "All",
+    "produkcja": "Manufacturing",
+    "logistyka": "Logistics",
+    "budownictwo": "Construction",
+    "gastronomia": "Hospitality",
+    "apply": "Apply",
+    "today": "today",
+    "yesterday": "yesterday",
+    "days_ago": "{{count}} days ago",
+    "week_ago": "a week ago",
+    "empty": "No offers in this category. Leave an enquiry — we'll get in touch when a new one appears."
+  },
+  "services": {
+    "kicker": "Our services",
+    "title": "From recruitment to residence card — under one roof",
+    "more": "Learn more →",
+    "items": [
+      { "title": "Recruitment", "text": "Candidates from Ukraine, Georgia, Asia and South America, verified for qualifications and residence status." },
+      { "title": "Work permits", "text": "Declarations at the labour office, type A permits, starost information — full paperwork and deadlines on our side." },
+      { "title": "Residence card", "text": "Temporary residence and work permit: application to the voivode, attachments, fingerprints, card collection." },
+      { "title": "Staff leasing", "text": "We employ the workers and second them to you. You plan the shifts, we run HR." },
+      { "title": "Housing and transport", "text": "Accommodation close to the plant and shift transport on a single invoice." },
+      { "title": "Advisory and inspections", "text": "Notification duties, documentation ready for Labour Inspectorate and Border Guard checks, reminders when the office is silent." }
+    ]
+  },
+  "legal": {
+    "kicker": "Why emigrante",
+    "title": "Legalisation is our job, not your problem",
+    "photo": "Photo: case manager with a candidate",
+    "cta": "Check your situation",
+    "points": [
+      { "title": "One case manager", "text": "The same person from enquiry to residence card collection. The same phone number." },
+      { "title": "We watch the office deadlines", "text": "When a case stalls, we file a reminder. You work, we write to the voivode." },
+      { "title": "Zero fees for candidates", "text": "The employer pays for placement. The candidate never pays anything." },
+      { "title": "Five languages of support", "text": "Polish, English, Ukrainian, Russian and Spanish — in conversation and in documents." }
+    ]
+  },
+  "stats": {
+    "hired": "people employed legally",
+    "cases": "legalisation cases closed with a decision",
+    "days": "days from enquiry to contract (median)",
+    "recommend": "of candidates recommend us to friends"
+  },
+  "calc": {
+    "kicker": "For employers",
+    "title": "Calculate the cost of hiring foreign workers",
+    "lead": "An estimate of the monthly employer cost plus one-off legalisation fees. We prepare an exact offer after a call.",
+    "workers": "Number of workers",
+    "rate": "Gross rate",
+    "rate_unit": "PLN/h",
+    "path": "Legalisation path",
+    "path_oswiadczenie": "Declaration",
+    "path_zezwolenie": "Work permit",
+    "path_karta": "Residence card",
+    "result_label": "Estimated monthly cost",
+    "wages": "Gross wages ({{hours}} h × {{workers}})",
+    "contrib": "Employer contributions (~20.5%)",
+    "fees": "Legalisation fees (one-off)",
+    "cta": "Submit a staffing request",
+    "disclaimer": "Indicative amounts, excluding PPK and accommodation costs. Stamp duties per current official rates.",
+    "currency": "PLN"
+  },
+  "cases": {
+    "kicker": "Case studies",
+    "title": "Teams we got up and running",
+    "all": "All case studies",
+    "items": [
+      { "label": "Food manufacturing · Poznań", "title": "48 line operators in 6 weeks", "text": "Recruitment, declarations and housing before the third shift started.", "photo": "Photo: production hall" },
+      { "label": "Logistics · Wrocław", "title": "Residence cards for 30 warehouse workers", "text": "Transition from declarations to single permits with no break in work.", "photo": "Photo: warehouse" },
+      { "label": "Construction · Warsaw", "title": "A crew of steel fixers from Georgia", "text": "Type A permits and a Labour Inspectorate check closed with no remarks.", "photo": "Photo: construction site" }
+    ]
+  },
+  "testimonials": { "kicker": "Reviews", "title": "What candidates and employers say" },
+  "blog": {
+    "kicker": "Blog",
+    "title": "Migration law news",
+    "all": "All posts",
+    "photo": "Post image",
+    "items": [
+      { "category": "Legalisation", "date": "18 Sep 2026", "title": "New processing deadlines for temporary residence applications — what the act changes" },
+      { "category": "Employer", "date": "9 Sep 2026", "title": "The Labour Inspectorate can establish an employment relationship by decision. What it means for contracts with foreigners" },
+      { "category": "Candidate", "date": "1 Sep 2026", "title": "Changing employer with a residence card: when a permit change is required" }
+    ]
+  },
+  "form": {
+    "title": "Leave your number. We'll call back in your language.",
+    "lead": "A free call for candidates and employers. We reply on the same business day.",
+    "name": "Full name",
+    "contact": "Phone or e-mail",
+    "role_candidate": "I'm looking for work",
+    "role_employer": "I'm hiring",
+    "submit": "Send enquiry",
+    "sending": "Sending…",
+    "success_title": "Thank you! Your enquiry has arrived.",
+    "success_text": "We'll call or write on the next business day.",
+    "again": "Send another enquiry",
+    "err_name": "Enter your full name.",
+    "err_contact": "Enter a phone number or e-mail address.",
+    "err_contact_format": "This doesn't look like a phone number or e-mail.",
+    "err_send": "Sending failed. Try again or call us."
+  },
+  "footer": {
+    "about": "Employment and residence-legalisation agency. KRAZ certificate no. 00000.",
+    "candidate": "For candidates",
+    "candidate_links": ["Job offers", "Residence legalisation", "FAQ", "Application form"],
+    "employer": "For employers",
+    "employer_links": ["Services", "Pricing", "Case studies", "Submit a staffing request"],
+    "contact": "Contact",
+    "address": "ul. Przykładowa 1, Warsaw",
+    "privacy": "Privacy policy",
+    "terms": "Terms",
+    "copyright": "© {{year}} emigrante.pl"
+  }
+}

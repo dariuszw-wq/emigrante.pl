@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "emigrante.pl — Trabajo en Polonia, legal y sin costes ocultos",
+    "description": "Agencia de empleo y legalización de residencia para extranjeros en Polonia. Empleadores verificados, contrato antes del primer turno, atención en 5 idiomas."
+  },
+  "topbar": { "hours": "Lun–Vie 8:00–18:00" },
+  "nav": {
+    "jobs": "Ofertas de trabajo",
+    "services": "Servicios",
+    "legal": "Legalización",
+    "employers": "Para empleadores",
+    "cases": "Casos de éxito",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "apply": "Enviar solicitud",
+    "menu": "Menú"
+  },
+  "hero": {
+    "badge": "Agencia de empleo · certificado KRAZ",
+    "title_before": "Trabajo en Polonia, ",
+    "title_accent": "legal",
+    "title_after": " y sin costes ocultos.",
+    "lead": "Conectamos a extranjeros con empleadores verificados y gestionamos toda la legalización de residencia y trabajo. Hablamos tu idioma y firmas el contrato antes del primer turno.",
+    "cta_jobs": "Ver ofertas de trabajo",
+    "cta_employer": "Soy empleador",
+    "rating": "4,9 / 5",
+    "rating_note": "según 380 opiniones de candidatos y empleadores",
+    "stat_hired": "personas contratadas",
+    "stat_employers": "empleadores en la base",
+    "stat_years": "años de experiencia",
+    "float_title": "Contrato antes del primer turno",
+    "float_sub": "estándar en cada oferta"
+  },
+  "logos": { "title": "Confían en nosotros empleadores de producción, logística y construcción" },
+  "jobs": {
+    "kicker": "Ofertas actuales",
+    "title": "Trabajo inmediato, con contrato y salario indicado claramente",
+    "all": "Todas",
+    "produkcja": "Producción",
+    "logistyka": "Logística",
+    "budownictwo": "Construcción",
+    "gastronomia": "Hostelería",
+    "apply": "Postular",
+    "today": "hoy",
+    "yesterday": "ayer",
+    "days_ago": "hace {{count}} días",
+    "week_ago": "hace una semana",
+    "empty": "No hay ofertas en esta categoría. Deja una solicitud y te avisaremos cuando aparezca una nueva."
+  },
+  "services": {
+    "kicker": "Nuestros servicios",
+    "title": "De la selección a la tarjeta de residencia, bajo un mismo techo",
+    "more": "Saber más →",
+    "items": [
+      { "title": "Selección de personal", "text": "Candidatos de Ucrania, Georgia, Asia y América del Sur, verificados en cualificación y situación de residencia." },
+      { "title": "Permisos de trabajo", "text": "Declaraciones en la oficina de empleo, permisos tipo A, información del starosta: documentación y plazos a nuestro cargo." },
+      { "title": "Tarjeta de residencia", "text": "Permiso de residencia temporal y trabajo: solicitud al voivoda, anexos, huellas dactilares, recogida de la tarjeta." },
+      { "title": "Cesión de personal", "text": "Contratamos nosotros y te cedemos al personal. Tú planificas los turnos, nosotros llevamos la gestión laboral." },
+      { "title": "Alojamiento y transporte", "text": "Alojamiento cerca de la planta y traslado al turno en una sola factura." },
+      { "title": "Asesoría e inspecciones", "text": "Obligaciones de notificación, documentación lista para inspecciones de PIP y Guardia Fronteriza, requerimientos cuando la oficina no responde." }
+    ]
+  },
+  "legal": {
+    "kicker": "Por qué emigrante",
+    "title": "La legalización es nuestro trabajo, no tu problema",
+    "photo": "Foto: gestor del expediente con un candidato",
+    "cta": "Comprueba tu situación",
+    "points": [
+      { "title": "Un solo gestor de expediente", "text": "La misma persona desde la solicitud hasta la recogida de la tarjeta de residencia. El mismo número de teléfono." },
+      { "title": "Vigilamos los plazos de la oficina", "text": "Si el expediente se estanca, presentamos un requerimiento. Tú trabajas, nosotros escribimos al voivoda." },
+      { "title": "Cero costes para el candidato", "text": "La intermediación la paga el empleador. El candidato no paga nada, nunca." },
+      { "title": "Atención en cinco idiomas", "text": "Polaco, inglés, ucraniano, ruso y español, en la conversación y en los documentos." }
+    ]
+  },
+  "stats": {
+    "hired": "personas contratadas legalmente",
+    "cases": "expedientes de legalización cerrados con resolución",
+    "days": "días de la solicitud al contrato (mediana)",
+    "recommend": "de los candidatos nos recomiendan a sus conocidos"
+  },
+  "calc": {
+    "kicker": "Para empleadores",
+    "title": "Calcula el coste de contratar a extranjeros",
+    "lead": "Estimación del coste mensual para el empleador junto con las tasas únicas de legalización. Preparamos la oferta exacta tras una llamada.",
+    "workers": "Número de trabajadores",
+    "rate": "Salario bruto",
+    "rate_unit": "PLN/h",
+    "path": "Vía de legalización",
+    "path_oswiadczenie": "Declaración",
+    "path_zezwolenie": "Permiso de trabajo",
+    "path_karta": "Tarjeta de residencia",
+    "result_label": "Coste mensual estimado",
+    "wages": "Salarios brutos ({{hours}} h × {{workers}})",
+    "contrib": "Cotizaciones del empleador (~20,5%)",
+    "fees": "Tasas de legalización (pago único)",
+    "cta": "Solicitar personal",
+    "disclaimer": "Importes orientativos, sin PPK ni costes de alojamiento. Tasas administrativas según tarifas oficiales vigentes.",
+    "currency": "PLN"
+  },
+  "cases": {
+    "kicker": "Casos de éxito",
+    "title": "Equipos que pusimos en marcha",
+    "all": "Todos los casos",
+    "items": [
+      { "label": "Producción alimentaria · Poznań", "title": "48 operarios de línea en 6 semanas", "text": "Selección, declaraciones y alojamiento antes del inicio del tercer turno.", "photo": "Foto: nave de producción" },
+      { "label": "Logística · Wrocław", "title": "Tarjetas de residencia para 30 almaceneros", "text": "Paso de declaraciones a permisos únicos sin interrupción del trabajo.", "photo": "Foto: almacén" },
+      { "label": "Construcción · Varsovia", "title": "Cuadrilla de ferrallistas de Georgia", "text": "Permisos tipo A e inspección de PIP cerrada sin observaciones.", "photo": "Foto: obra" }
+    ]
+  },
+  "testimonials": { "kicker": "Opiniones", "title": "Lo que dicen candidatos y empleadores" },
+  "blog": {
+    "kicker": "Blog",
+    "title": "Novedades del derecho migratorio",
+    "all": "Todas las entradas",
+    "photo": "Imagen de la entrada",
+    "items": [
+      { "category": "Legalización", "date": "18 sep 2026", "title": "Nuevos plazos de tramitación de la residencia temporal: qué cambia la ley" },
+      { "category": "Empleador", "date": "9 sep 2026", "title": "PIP puede declarar una relación laboral por resolución. Qué significa para los contratos civiles con extranjeros" },
+      { "category": "Candidato", "date": "1 sep 2026", "title": "Cambio de empleador con tarjeta de residencia: cuándo hace falta modificar el permiso" }
+    ]
+  },
+  "form": {
+    "title": "Déjanos tu número. Te llamamos en tu idioma.",
+    "lead": "Llamada gratuita para candidatos y empleadores. Respondemos el mismo día laborable.",
+    "name": "Nombre y apellidos",
+    "contact": "Teléfono o correo electrónico",
+    "role_candidate": "Busco trabajo",
+    "role_employer": "Contrato personal",
+    "submit": "Enviar solicitud",
+    "sending": "Enviando…",
+    "success_title": "¡Gracias! Hemos recibido tu solicitud.",
+    "success_text": "Te llamaremos o escribiremos el próximo día laborable.",
+    "again": "Enviar otra solicitud",
+    "err_name": "Escribe tu nombre y apellidos.",
+    "err_contact": "Escribe un teléfono o un correo electrónico.",
+    "err_contact_format": "Esto no parece un teléfono ni un correo electrónico.",
+    "err_send": "No se pudo enviar. Inténtalo de nuevo o llámanos."
+  },
+  "footer": {
+    "about": "Agencia de empleo y legalización de residencia. Certificado KRAZ n.º 00000.",
+    "candidate": "Para candidatos",
+    "candidate_links": ["Ofertas de trabajo", "Legalización de residencia", "FAQ", "Formulario de solicitud"],
+    "employer": "Para empleadores",
+    "employer_links": ["Servicios", "Precios", "Casos de éxito", "Solicitar personal"],
+    "contact": "Contacto",
+    "address": "ul. Przykładowa 1, Varsovia",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones",
+    "copyright": "© {{year}} emigrante.pl"
+  }
+}

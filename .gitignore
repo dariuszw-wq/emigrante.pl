@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+*.local
+handoff_extract
+*.zip
+*.docx
+~$*
+.vercel
+.netlify
