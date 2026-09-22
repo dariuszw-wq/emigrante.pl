@@ -22,27 +22,25 @@ Leady trafiają do tabeli `leads` (kolumny: `name`, `contact`, `role` = `kandyda
 
 Zmiana opłat legalizacyjnych i składek: tabela `fee_rates` (bez deployu).
 
-## Deploy (Vercel — rekomendowany)
+## Deploy (GitHub Pages — jak pozostałe strony kancelarii)
 
-```bash
-npx vercel login
-npx vercel --prod
-```
+Repo: https://github.com/dariuszw-wq/emigrante.pl. Każdy push na `main` uruchamia `.github/workflows/deploy.yml` (build + publikacja do GitHub Pages).
 
-W panelu Vercel → Settings → Environment Variables dodaj `VITE_SUPABASE_URL` i `VITE_SUPABASE_ANON_KEY`, potem ponowny deploy.
-
-Alternatywnie Netlify: `npx netlify-cli deploy --prod` (konfiguracja w `netlify.toml`).
+Zmienne budowania: Settings → Secrets and variables → Actions → **Variables**: `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY` (opcjonalnie `SITE_BASE`, domyślnie `/`).
 
 ## Domena emigrante.pl
 
-Po deployu w Vercel: Settings → Domains → dodaj `emigrante.pl` i `www.emigrante.pl`. U rejestratora domeny ustaw:
+Plik `public/CNAME` zawiera `emigrante.pl`. U rejestratora domeny ustaw:
 
 | Typ   | Nazwa | Wartość                 |
 |-------|-------|-------------------------|
-| A     | @     | `76.76.21.21`           |
-| CNAME | www   | `cname.vercel-dns.com`  |
+| A     | @     | `185.199.108.153`       |
+| A     | @     | `185.199.109.153`       |
+| A     | @     | `185.199.110.153`       |
+| A     | @     | `185.199.111.153`       |
+| CNAME | www   | `dariuszw-wq.github.io` |
 
-Propagacja do 24 h; Vercel wystawi certyfikat SSL automatycznie. `www` → przekierowanie na domenę główną ustaw w Vercel (Redirect to `emigrante.pl`).
+Potem w repo: Settings → Pages → Custom domain = `emigrante.pl`, zaznacz **Enforce HTTPS** (po propagacji DNS, do 24 h).
 
 ## Struktura
 
