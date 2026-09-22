@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const PHONE_RE = /^\+?[\d\s()-]{7,}$/;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-type Status = "idle" | "sending" | "success";
+type Status = "idle" | "sending" | "success" | "success_mailto";
 
 export function LeadForm() {
   const { t, i18n } = useTranslation();
@@ -35,7 +35,7 @@ export function LeadForm() {
     setStatus("sending");
     const res = await submitLead({ name: name.trim(), contact: contact.trim(), role, lang: i18n.resolvedLanguage ?? "pl" });
     if (res.ok) {
-      setStatus("success");
+      setStatus(res.mode === "mailto" ? "success_mailto" : "success");
       setName("");
       setContact("");
     } else {
@@ -66,11 +66,11 @@ export function LeadForm() {
           <p className="text-[17px] leading-[1.6] mt-[18px] text-lime-deep max-w-[44ch]">{t("form.lead")}</p>
         </div>
 
-        {status === "success" ? (
+        {status === "success" || status === "success_mailto" ? (
           <div className="bg-ground rounded-[20px] p-7 grid gap-3" role="status">
             <CheckCircle2 size={36} className="text-dot" />
             <strong className="font-display text-[22px] tracking-[-0.02em]">{t("form.success_title")}</strong>
-            <p className="text-[15px] text-ink-2">{t("form.success_text")}</p>
+            <p className="text-[15px] text-ink-2">{t(status === "success_mailto" ? "form.success_mailto" : "form.success_text")}</p>
             <button type="button" onClick={() => setStatus("idle")} className="text-[14px] font-bold text-lime-text text-left cursor-pointer hover:text-navy">
               {t("form.again")}
             </button>

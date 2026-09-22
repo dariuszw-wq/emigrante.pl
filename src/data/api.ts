@@ -1,4 +1,5 @@
 import { supabase } from "@/lib/supabase";
+import { CONTACT } from "./contact";
 import { seedFees, seedJobs, seedStats, seedTestimonials } from "./seed";
 import type { FeeConfig, Job, LeadRole, LegalPath, Stats, Testimonial } from "./types";
 
@@ -61,18 +62,42 @@ export interface LeadInput {
   lang: string;
 }
 
-export async function submitLead(input: LeadInput): Promise<{ ok: true } | { ok: false; error: string }> {
-  if (!supabase) {
-    // Tryb bez backendu: symulujemy zapis, żeby UI dało się przetestować.
-    await new Promise((r) => setTimeout(r, 600));
-    console.info("[leads] brak konfiguracji Supabase — lead nie został zapisany:", input);
-    return { ok: true };
+export type LeadResult = { ok: true; mode: "db" | "endpoint" | "mailto" } | { ok: false; error: string };
+
+const FORM_ENDPOINT = import.meta.env.VITE_FORM_ENDPOINT as string | undefined;
+
+/**
+ * Kolejność: Supabase (jeśli skonfigurowany) → endpoint formularza (np. Formspree)
+ * → mailto: (jak w pozostałych stronach kancelarii — otwiera program pocztowy).
+ */
+export async function submitLead(input: LeadInput): Promise<LeadResult> {
+  if (supabase) {
+    const { error } = await supabase.from("leads").insert({
+      ...input,
+      source: "homepage",
+      user_agent: navigator.userAgent,
+    });
+    if (error) return { ok: false, error: error.message };
+    return { ok: true, mode: "db" };
   }
-  const { error } = await supabase.from("leads").insert({
-    ...input,
-    source: "homepage",
-    user_agent: navigator.userAgent,
-  });
-  if (error) return { ok: false, error: error.message };
-  return { ok: true };
+  if (FORM_ENDPOINT) {
+    try {
+      const res = await fetch(FORM_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({ ...input, _subject: `emigrante.pl — zgłoszenie (${input.role})` }),
+      });
+      if (!res.ok) return { ok: false, error: `HTTP ${res.status}` };
+      return { ok: true, mode: "endpoint" };
+    } catch (e) {
+      return { ok: false, error: String(e) };
+    }
+  }
+  const subject = encodeURIComponent(`emigrante.pl — zgłoszenie (${input.role})`);
+  const body = encodeURIComponent(`Imię i nazwisko: ${input.name}
+Kontakt: ${input.contact}
+Rola: ${input.role}
+Język: ${input.lang}`);
+  window.location.href = `mailto:${CONTACT.email}?subject=${subject}&body=${body}`;
+  return { ok: true, mode: "mailto" };
 }

@@ -3,7 +3,9 @@
     "title": "emigrante.pl — Praca w Polsce, legalnie i bez ukrytych opłat",
     "description": "Agencja zatrudnienia i legalizacji pobytu dla cudzoziemców w Polsce. Sprawdzeni pracodawcy, umowa przed pierwszą zmianą, obsługa w 5 językach."
   },
-  "topbar": { "hours": "Pon–Pt 8:00–18:00" },
+  "topbar": {
+    "hours": "Pon–Pt 8:00–18:00"
+  },
   "nav": {
     "jobs": "Oferty pracy",
     "services": "Usługi",
@@ -31,7 +33,9 @@
     "float_title": "Umowa przed pierwszą zmianą",
     "float_sub": "standard w każdej ofercie"
   },
-  "logos": { "title": "Zaufali nam pracodawcy z produkcji, logistyki i budownictwa" },
+  "logos": {
+    "title": "Zaufali nam pracodawcy z produkcji, logistyki i budownictwa"
+  },
   "jobs": {
     "kicker": "Aktualne oferty",
     "title": "Praca od zaraz, z umową i stawką podaną wprost",
@@ -52,12 +56,30 @@
     "title": "Od rekrutacji do karty pobytu — pod jednym dachem",
     "more": "Dowiedz się więcej →",
     "items": [
-      { "title": "Rekrutacja pracowników", "text": "Kandydaci z Ukrainy, Gruzji, Azji i Ameryki Południowej, sprawdzeni pod kątem kwalifikacji i tytułu pobytowego." },
-      { "title": "Zezwolenia na pracę", "text": "Oświadczenia w PUP, zezwolenia typu A, informacja starosty — komplet i terminy po naszej stronie." },
-      { "title": "Karta pobytu", "text": "Zezwolenie na pobyt czasowy i pracę: wniosek do wojewody, załączniki, odciski palców, odbiór karty." },
-      { "title": "Leasing pracowniczy", "text": "Zatrudniamy u siebie i oddelegowujemy do Ciebie. Ty planujesz zmiany, my prowadzimy kadry." },
-      { "title": "Zakwaterowanie i transport", "text": "Miejsca noclegowe blisko zakładu i dowóz na zmianę w ramach jednej faktury." },
-      { "title": "Doradztwo i kontrole", "text": "Obowiązki informacyjne, dokumentacja pod kontrolę PIP i Straży Granicznej, ponaglenia gdy urząd milczy." }
+      {
+        "title": "Rekrutacja pracowników",
+        "text": "Kandydaci z Ukrainy, Gruzji, Azji i Ameryki Południowej, sprawdzeni pod kątem kwalifikacji i tytułu pobytowego."
+      },
+      {
+        "title": "Zezwolenia na pracę",
+        "text": "Oświadczenia w PUP, zezwolenia typu A, informacja starosty — komplet i terminy po naszej stronie."
+      },
+      {
+        "title": "Karta pobytu",
+        "text": "Zezwolenie na pobyt czasowy i pracę: wniosek do wojewody, załączniki, odciski palców, odbiór karty."
+      },
+      {
+        "title": "Leasing pracowniczy",
+        "text": "Zatrudniamy u siebie i oddelegowujemy do Ciebie. Ty planujesz zmiany, my prowadzimy kadry."
+      },
+      {
+        "title": "Zakwaterowanie i transport",
+        "text": "Miejsca noclegowe blisko zakładu i dowóz na zmianę w ramach jednej faktury."
+      },
+      {
+        "title": "Doradztwo i kontrole",
+        "text": "Obowiązki informacyjne, dokumentacja pod kontrolę PIP i Straży Granicznej, ponaglenia gdy urząd milczy."
+      }
     ]
   },
   "legal": {
@@ -66,10 +88,22 @@
     "photo": "Zdjęcie: opiekun sprawy z kandydatem",
     "cta": "Sprawdź swoją sytuację",
     "points": [
-      { "title": "Jeden opiekun sprawy", "text": "Ta sama osoba od zgłoszenia do odbioru karty pobytu. Ten sam numer telefonu." },
-      { "title": "Pilnujemy terminów urzędu", "text": "Gdy sprawa stoi, składamy ponaglenie. Ty pracujesz, my piszemy do wojewody." },
-      { "title": "Zero opłat od kandydata", "text": "Za pośrednictwo płaci pracodawca. Kandydat nie płaci nic — nigdy." },
-      { "title": "Pięć języków obsługi", "text": "Polski, angielski, ukraiński, rosyjski i hiszpański — w rozmowie i w dokumentach." }
+      {
+        "title": "Jeden opiekun sprawy",
+        "text": "Ta sama osoba od zgłoszenia do odbioru karty pobytu. Ten sam numer telefonu."
+      },
+      {
+        "title": "Pilnujemy terminów urzędu",
+        "text": "Gdy sprawa stoi, składamy ponaglenie. Ty pracujesz, my piszemy do wojewody."
+      },
+      {
+        "title": "Zero opłat od kandydata",
+        "text": "Za pośrednictwo płaci pracodawca. Kandydat nie płaci nic — nigdy."
+      },
+      {
+        "title": "Pięć języków obsługi",
+        "text": "Polski, angielski, ukraiński, rosyjski i hiszpański — w rozmowie i w dokumentach."
+      }
     ]
   },
   "stats": {
@@ -102,21 +136,51 @@
     "title": "Zespoły, które postawiliśmy na nogi",
     "all": "Wszystkie case studies",
     "items": [
-      { "label": "Produkcja spożywcza · Poznań", "title": "48 operatorów linii w 6 tygodni", "text": "Rekrutacja, oświadczenia i zakwaterowanie przed startem trzeciej zmiany.", "photo": "Zdjęcie: hala produkcyjna" },
-      { "label": "Logistyka · Wrocław", "title": "Karty pobytu dla 30 magazynierów", "text": "Przejście z oświadczeń na zezwolenia jednolite bez przerwy w pracy.", "photo": "Zdjęcie: magazyn" },
-      { "label": "Budownictwo · Warszawa", "title": "Brygada zbrojarzy z Gruzji", "text": "Zezwolenia typu A i kontrola PIP zakończona bez uwag.", "photo": "Zdjęcie: budowa" }
+      {
+        "label": "Produkcja spożywcza · Poznań",
+        "title": "48 operatorów linii w 6 tygodni",
+        "text": "Rekrutacja, oświadczenia i zakwaterowanie przed startem trzeciej zmiany.",
+        "photo": "Zdjęcie: hala produkcyjna"
+      },
+      {
+        "label": "Logistyka · Wrocław",
+        "title": "Karty pobytu dla 30 magazynierów",
+        "text": "Przejście z oświadczeń na zezwolenia jednolite bez przerwy w pracy.",
+        "photo": "Zdjęcie: magazyn"
+      },
+      {
+        "label": "Budownictwo · Warszawa",
+        "title": "Brygada zbrojarzy z Gruzji",
+        "text": "Zezwolenia typu A i kontrola PIP zakończona bez uwag.",
+        "photo": "Zdjęcie: budowa"
+      }
     ]
   },
-  "testimonials": { "kicker": "Opinie", "title": "Co mówią kandydaci i pracodawcy" },
+  "testimonials": {
+    "kicker": "Opinie",
+    "title": "Co mówią kandydaci i pracodawcy"
+  },
   "blog": {
     "kicker": "Blog",
     "title": "Aktualności z prawa migracyjnego",
     "all": "Wszystkie wpisy",
     "photo": "Grafika wpisu",
     "items": [
-      { "category": "Legalizacja", "date": "18 wrz 2026", "title": "Nowe terminy rozpatrywania wniosków o pobyt czasowy — co zmienia ustawa" },
-      { "category": "Pracodawca", "date": "9 wrz 2026", "title": "PIP może ustalić stosunek pracy decyzją. Co to znaczy dla zleceń z cudzoziemcami" },
-      { "category": "Kandydat", "date": "1 wrz 2026", "title": "Zmiana pracodawcy z kartą pobytu: kiedy potrzebna jest zmiana zezwolenia" }
+      {
+        "category": "Legalizacja",
+        "date": "18 wrz 2026",
+        "title": "Nowe terminy rozpatrywania wniosków o pobyt czasowy — co zmienia ustawa"
+      },
+      {
+        "category": "Pracodawca",
+        "date": "9 wrz 2026",
+        "title": "PIP może ustalić stosunek pracy decyzją. Co to znaczy dla zleceń z cudzoziemcami"
+      },
+      {
+        "category": "Kandydat",
+        "date": "1 wrz 2026",
+        "title": "Zmiana pracodawcy z kartą pobytu: kiedy potrzebna jest zmiana zezwolenia"
+      }
     ]
   },
   "form": {
@@ -134,14 +198,25 @@
     "err_name": "Podaj imię i nazwisko.",
     "err_contact": "Podaj numer telefonu lub adres e-mail.",
     "err_contact_format": "To nie wygląda na numer telefonu ani e-mail.",
-    "err_send": "Nie udało się wysłać. Spróbuj ponownie lub zadzwoń."
+    "err_send": "Nie udało się wysłać. Spróbuj ponownie lub zadzwoń.",
+    "success_mailto": "Otworzył się Twój program pocztowy z gotową wiadomością — wystarczy kliknąć „Wyślij”. Jeśli nic się nie otworzyło, napisz na kontakt@emigrante.pl."
   },
   "footer": {
     "about": "Agencja zatrudnienia i legalizacji pobytu. Certyfikat KRAZ nr 00000.",
     "candidate": "Dla kandydata",
-    "candidate_links": ["Oferty pracy", "Legalizacja pobytu", "FAQ", "Formularz aplikacji"],
+    "candidate_links": [
+      "Oferty pracy",
+      "Legalizacja pobytu",
+      "FAQ",
+      "Formularz aplikacji"
+    ],
     "employer": "Dla pracodawcy",
-    "employer_links": ["Usługi", "Cennik", "Case studies", "Zgłoś zapotrzebowanie"],
+    "employer_links": [
+      "Usługi",
+      "Cennik",
+      "Case studies",
+      "Zgłoś zapotrzebowanie"
+    ],
     "contact": "Kontakt",
     "address": "ul. Przykładowa 1, Warszawa",
     "privacy": "Polityka prywatności",

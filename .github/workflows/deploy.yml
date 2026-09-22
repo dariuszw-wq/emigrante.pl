@@ -30,6 +30,7 @@ jobs:
           SITE_BASE: ${{ vars.SITE_BASE }}
           VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL }}
           VITE_SUPABASE_ANON_KEY: ${{ vars.VITE_SUPABASE_ANON_KEY }}
+          VITE_FORM_ENDPOINT: ${{ vars.VITE_FORM_ENDPOINT }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
