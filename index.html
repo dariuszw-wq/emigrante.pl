@@ -76,5 +76,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!-- Czat wstępnego rozpoznania sprawy — ta sama zasada co na ekartapobytu.pl
+         (zgłoszenia trafiają do wspólnego arkusza Google; pole site=emigrante.pl pozwala filtrować) -->
+    <script src="/czat-jezyki.js" defer></script>
+    <script src="/czat-widget.js"
+            data-endpoint="https://script.google.com/macros/s/AKfycbyOqUYYIvW4OCwY79AFqp2j5BXUTdef43tK42FrsEBVSmFH4hB3lxzr3Oslg9OkO24/exec"
+            data-whatsapp="48539999549"
+            data-telefon="+48 539 999 549"
+            data-akcent="#0b1f3a"
+            data-tlo="#0b1f3a"
+            data-kroj="&quot;Manrope&quot;, sans-serif"
+            defer></script>
   </body>
 </html>

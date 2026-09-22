@@ -48,7 +48,7 @@ export function Nav() {
 
         <div className="hidden md:flex gap-[10px]">
           <Button asChild variant="outline" size="md">
-            <a href="#kontakt">{t("nav.contact")}</a>
+            <button type="button" data-prc-otworz-czat="nav">{t("nav.contact")}</button>
           </Button>
           <Button asChild variant="lime" size="md" className="px-[22px]">
             <a href="#zgloszenie">{t("nav.apply")}</a>
@@ -76,7 +76,7 @@ export function Nav() {
             ))}
             <div className="flex gap-[10px] pt-2 flex-wrap">
               <Button asChild variant="outline" size="md">
-                <a href="#kontakt" onClick={() => setOpen(false)}>{t("nav.contact")}</a>
+                <button type="button" data-prc-otworz-czat="nav-mobile" onClick={() => setOpen(false)}>{t("nav.contact")}</button>
               </Button>
               <Button asChild variant="lime" size="md">
                 <a href="#zgloszenie" onClick={() => setOpen(false)}>{t("nav.apply")}</a>

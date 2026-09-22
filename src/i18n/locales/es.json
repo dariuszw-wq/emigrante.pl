@@ -97,8 +97,8 @@
         "text": "Si el expediente se estanca, presentamos un requerimiento. Tú trabajas, nosotros escribimos al voivoda."
       },
       {
-        "title": "Cero costes para el candidato",
-        "text": "La intermediación la paga el empleador. El candidato no paga nada, nunca."
+        "title": "Tarjeta de residencia con garantía",
+        "text": "Modalidad del servicio en la que llevamos el expediente hasta la emisión de la tarjeta de residencia según las condiciones fijadas en el contrato. Pregunta por las condiciones en el chat."
       },
       {
         "title": "Atención en cinco idiomas",
@@ -169,37 +169,22 @@
       {
         "category": "Legalización",
         "date": "18 sep 2026",
-        "title": "Nuevos plazos de tramitación de la residencia temporal: qué cambia la ley"
+        "title": "Nuevos plazos de tramitación de la residencia temporal: qué cambia la ley",
+        "excerpt": "El Parlamento ha fijado nuevos plazos para los voivodas. Revisamos a quién afectan y qué hacer si el expediente ya está en curso."
       },
       {
         "category": "Empleador",
         "date": "9 sep 2026",
-        "title": "PIP puede declarar una relación laboral por resolución. Qué significa para los contratos civiles con extranjeros"
+        "title": "PIP puede declarar una relación laboral por resolución. Qué significa para los contratos civiles con extranjeros",
+        "excerpt": "Tras la reforma, el inspector de trabajo puede convertir un contrato civil en laboral por resolución. Explicamos las consecuencias para las empresas que emplean a extranjeros."
       },
       {
         "category": "Candidato",
         "date": "1 sep 2026",
-        "title": "Cambio de empleador con tarjeta de residencia: cuándo hace falta modificar el permiso"
+        "title": "Cambio de empleador con tarjeta de residencia: cuándo hace falta modificar el permiso",
+        "excerpt": "Un nuevo empleador no siempre implica una nueva solicitud. Explicamos cuándo basta una notificación y cuándo hay que modificar el permiso."
       }
     ]
-  },
-  "form": {
-    "title": "Déjanos tu número. Te llamamos en tu idioma.",
-    "lead": "Llamada gratuita para candidatos y empleadores. Respondemos el mismo día laborable.",
-    "name": "Nombre y apellidos",
-    "contact": "Teléfono o correo electrónico",
-    "role_candidate": "Busco trabajo",
-    "role_employer": "Contrato personal",
-    "submit": "Enviar solicitud",
-    "sending": "Enviando…",
-    "success_title": "¡Gracias! Hemos recibido tu solicitud.",
-    "success_text": "Te llamaremos o escribiremos el próximo día laborable.",
-    "again": "Enviar otra solicitud",
-    "err_name": "Escribe tu nombre y apellidos.",
-    "err_contact": "Escribe un teléfono o un correo electrónico.",
-    "err_contact_format": "Esto no parece un teléfono ni un correo electrónico.",
-    "err_send": "No se pudo enviar. Inténtalo de nuevo o llámanos.",
-    "success_mailto": "Se ha abierto tu programa de correo con el mensaje listo: solo pulsa «Enviar». Si no se abrió nada, escribe a kontakt@emigrante.pl."
   },
   "footer": {
     "about": "Agencia de empleo y legalización de residencia. Certificado KRAZ n.º 00000.",
@@ -222,5 +207,20 @@
     "privacy": "Política de privacidad",
     "terms": "Condiciones",
     "copyright": "© {{year}} emigrante.pl"
+  },
+  "chat": {
+    "title": "Cuéntanos de qué se trata. Respondemos en tu idioma.",
+    "lead": "El chat hace cinco preguntas breves y dirige tu caso a la persona adecuada. Sin formularios: respondes como en una conversación y también puedes dictar.",
+    "steps": [
+      "Di de qué trata tu caso y en qué etapa está.",
+      "Describe el problema en pocas palabras o grábalo con la voz.",
+      "Deja tu número: te llamamos en un máximo de 3 días laborables."
+    ],
+    "card_title": "Revisión inicial del caso",
+    "card_sub": "5 preguntas · alrededor de un minuto",
+    "f_voice": "Puedes hablar en lugar de escribir",
+    "f_time": "Respuesta en un máximo de 3 días laborables",
+    "start": "Iniciar el chat",
+    "whatsapp": "¿Prefieres WhatsApp?"
   }
 }

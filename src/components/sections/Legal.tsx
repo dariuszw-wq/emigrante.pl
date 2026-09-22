@@ -12,7 +12,7 @@ export function Legal() {
       className="container-site pt-10 pb-20 grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-x-[clamp(24px,4vw,72px)] gap-y-10 items-center"
     >
       <div className="rounded-[28px] overflow-hidden h-[clamp(340px,40vw,520px)]">
-        <ImageSlot label={t("legal.photo")} />
+        <ImageSlot src="/img/legalizacja.jpg" alt={t("legal.photo")} label={t("legal.photo")} />
       </div>
       <div>
         <span className="kicker">{t("legal.kicker")}</span>

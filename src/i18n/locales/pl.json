@@ -97,8 +97,8 @@
         "text": "Gdy sprawa stoi, składamy ponaglenie. Ty pracujesz, my piszemy do wojewody."
       },
       {
-        "title": "Zero opłat od kandydata",
-        "text": "Za pośrednictwo płaci pracodawca. Kandydat nie płaci nic — nigdy."
+        "title": "Karta pobytu z gwarancją",
+        "text": "Wariant usługi, w którym prowadzimy sprawę do wydania karty pobytu na zasadach określonych w umowie. Zapytaj o warunki w czacie."
       },
       {
         "title": "Pięć języków obsługi",
@@ -169,37 +169,22 @@
       {
         "category": "Legalizacja",
         "date": "18 wrz 2026",
-        "title": "Nowe terminy rozpatrywania wniosków o pobyt czasowy — co zmienia ustawa"
+        "title": "Nowe terminy rozpatrywania wniosków o pobyt czasowy — co zmienia ustawa",
+        "excerpt": "Sejm uchwalił nowe terminy dla wojewodów. Sprawdzamy, kogo obejmą i co zrobić, gdy sprawa już trwa."
       },
       {
         "category": "Pracodawca",
         "date": "9 wrz 2026",
-        "title": "PIP może ustalić stosunek pracy decyzją. Co to znaczy dla zleceń z cudzoziemcami"
+        "title": "PIP może ustalić stosunek pracy decyzją. Co to znaczy dla zleceń z cudzoziemcami",
+        "excerpt": "Po nowelizacji inspektor pracy może przekształcić zlecenie w etat decyzją. Wyjaśniamy skutki dla firm zatrudniających cudzoziemców."
       },
       {
         "category": "Kandydat",
         "date": "1 wrz 2026",
-        "title": "Zmiana pracodawcy z kartą pobytu: kiedy potrzebna jest zmiana zezwolenia"
+        "title": "Zmiana pracodawcy z kartą pobytu: kiedy potrzebna jest zmiana zezwolenia",
+        "excerpt": "Nowy pracodawca nie zawsze oznacza nowy wniosek. Tłumaczymy, kiedy wystarczy powiadomienie, a kiedy trzeba zmienić zezwolenie."
       }
     ]
-  },
-  "form": {
-    "title": "Zostaw numer. Oddzwonimy w Twoim języku.",
-    "lead": "Bezpłatna rozmowa dla kandydatów i pracodawców. Odpowiadamy w dniu roboczym.",
-    "name": "Imię i nazwisko",
-    "contact": "Telefon lub e-mail",
-    "role_candidate": "Szukam pracy",
-    "role_employer": "Zatrudniam",
-    "submit": "Wyślij zgłoszenie",
-    "sending": "Wysyłanie…",
-    "success_title": "Dziękujemy! Zgłoszenie dotarło.",
-    "success_text": "Oddzwonimy lub napiszemy w najbliższym dniu roboczym.",
-    "again": "Wyślij kolejne zgłoszenie",
-    "err_name": "Podaj imię i nazwisko.",
-    "err_contact": "Podaj numer telefonu lub adres e-mail.",
-    "err_contact_format": "To nie wygląda na numer telefonu ani e-mail.",
-    "err_send": "Nie udało się wysłać. Spróbuj ponownie lub zadzwoń.",
-    "success_mailto": "Otworzył się Twój program pocztowy z gotową wiadomością — wystarczy kliknąć „Wyślij”. Jeśli nic się nie otworzyło, napisz na kontakt@emigrante.pl."
   },
   "footer": {
     "about": "Agencja zatrudnienia i legalizacji pobytu. Certyfikat KRAZ nr 00000.",
@@ -222,5 +207,20 @@
     "privacy": "Polityka prywatności",
     "terms": "Regulamin",
     "copyright": "© {{year}} emigrante.pl"
+  },
+  "chat": {
+    "title": "Napisz, o co chodzi. Odpowiemy w Twoim języku.",
+    "lead": "Czat zadaje pięć krótkich pytań i kieruje sprawę do właściwej osoby. Bez formularzy — odpowiadasz jak w rozmowie, możesz też dyktować.",
+    "steps": [
+      "Powiedz, czego dotyczy sprawa i na jakim jest etapie.",
+      "Opisz problem w kilku słowach lub nagraj głosem.",
+      "Zostaw numer — oddzwonimy do 3 dni roboczych."
+    ],
+    "card_title": "Wstępne rozpoznanie sprawy",
+    "card_sub": "5 pytań · około minuty",
+    "f_voice": "Możesz mówić zamiast pisać",
+    "f_time": "Odpowiedź do 3 dni roboczych",
+    "start": "Rozpocznij czat",
+    "whatsapp": "Wolisz WhatsApp?"
   }
 }

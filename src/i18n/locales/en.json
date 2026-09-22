@@ -97,8 +97,8 @@
         "text": "When a case stalls, we file a reminder. You work, we write to the voivode."
       },
       {
-        "title": "Zero fees for candidates",
-        "text": "The employer pays for placement. The candidate never pays anything."
+        "title": "Residence card with guarantee",
+        "text": "A service option in which we run the case through to the issue of the residence card on the terms set out in the contract. Ask about the conditions in the chat."
       },
       {
         "title": "Five languages of support",
@@ -169,37 +169,22 @@
       {
         "category": "Legalisation",
         "date": "18 Sep 2026",
-        "title": "New processing deadlines for temporary residence applications — what the act changes"
+        "title": "New processing deadlines for temporary residence applications — what the act changes",
+        "excerpt": "Parliament has set new deadlines for voivodes. We check who they cover and what to do when a case is already pending."
       },
       {
         "category": "Employer",
         "date": "9 Sep 2026",
-        "title": "The Labour Inspectorate can establish an employment relationship by decision. What it means for contracts with foreigners"
+        "title": "The Labour Inspectorate can establish an employment relationship by decision. What it means for contracts with foreigners",
+        "excerpt": "After the amendment, a labour inspector can turn a civil contract into employment by decision. We explain the consequences for companies employing foreigners."
       },
       {
         "category": "Candidate",
         "date": "1 Sep 2026",
-        "title": "Changing employer with a residence card: when a permit change is required"
+        "title": "Changing employer with a residence card: when a permit change is required",
+        "excerpt": "A new employer does not always mean a new application. We explain when a notification is enough and when the permit must be changed."
       }
     ]
-  },
-  "form": {
-    "title": "Leave your number. We'll call back in your language.",
-    "lead": "A free call for candidates and employers. We reply on the same business day.",
-    "name": "Full name",
-    "contact": "Phone or e-mail",
-    "role_candidate": "I'm looking for work",
-    "role_employer": "I'm hiring",
-    "submit": "Send enquiry",
-    "sending": "Sending…",
-    "success_title": "Thank you! Your enquiry has arrived.",
-    "success_text": "We'll call or write on the next business day.",
-    "again": "Send another enquiry",
-    "err_name": "Enter your full name.",
-    "err_contact": "Enter a phone number or e-mail address.",
-    "err_contact_format": "This doesn't look like a phone number or e-mail.",
-    "err_send": "Sending failed. Try again or call us.",
-    "success_mailto": "Your e-mail app has opened with a ready message — just click “Send”. If nothing opened, write to kontakt@emigrante.pl."
   },
   "footer": {
     "about": "Employment and residence-legalisation agency. KRAZ certificate no. 00000.",
@@ -222,5 +207,20 @@
     "privacy": "Privacy policy",
     "terms": "Terms",
     "copyright": "© {{year}} emigrante.pl"
+  },
+  "chat": {
+    "title": "Tell us what it's about. We reply in your language.",
+    "lead": "The chat asks five short questions and routes your case to the right person. No forms — you answer as in a conversation, and you can dictate.",
+    "steps": [
+      "Say what the case is about and what stage it is at.",
+      "Describe the problem in a few words or record it by voice.",
+      "Leave your number — we call back within 3 business days."
+    ],
+    "card_title": "Initial case check",
+    "card_sub": "5 questions · about a minute",
+    "f_voice": "You can speak instead of typing",
+    "f_time": "Reply within 3 business days",
+    "start": "Start the chat",
+    "whatsapp": "Prefer WhatsApp?"
   }
 }

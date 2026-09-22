@@ -1,7 +1,8 @@
-// Dane kontaktowe — do uzupełnienia docelowymi wartościami.
+// Dane kontaktowe — numer wspólny z czatem (WhatsApp kancelarii). KRAZ do uzupełnienia.
 export const CONTACT = {
-  phone: "+48 000 000 000",
-  phoneRaw: "+48000000000",
+  phone: "+48 539 999 549",
+  phoneRaw: "+48539999549",
+  whatsapp: "48539999549",
   email: "kontakt@emigrante.pl",
   krazNo: "00000",
 };

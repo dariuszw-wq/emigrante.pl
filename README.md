@@ -61,3 +61,19 @@ supabase/schema.sql      schemat + RLS + seed
 - Dane kontaktowe i nr KRAZ: `src/data/contact.ts`, klucz `footer.about` w słownikach.
 - Logotypy pracodawców: `src/data/seed.ts` → `logos` (docelowo SVG).
 - Podstrony (oferty, blog, case studies, polityka prywatności, regulamin) — linki prowadzą dziś do kotwic.
+
+## Zdjęcia — gdzie wgrać (public/)
+
+| Miejsce | Plik | Format / rozmiar |
+|---|---|---|
+| Karuzela hero (8) | `img/hero-01.jpg` … `img/hero-08.jpg` | JPG, pion 3:4, 800×1040 px, ≤150 KB |
+| Awatary opinii (3) | `img/avatar-1.jpg` … `img/avatar-3.jpg` | JPG, kwadrat 200×200 px |
+| Legalizacja | `img/legalizacja.jpg` | JPG, 1200×1000 px (6:5) |
+| Realizacje (3) | `img/case-01.jpg` … `img/case-03.jpg` | JPG, poziom 3:2, 1200×800 px |
+| Blog — pula rotacyjna (12) | `blog/blog-01.jpg` … `blog/blog-12.jpg` | JPG, kwadrat 600×600 px |
+
+Brak pliku = placeholder; wgranie pliku o tej nazwie + push = zdjęcie na stronie.
+
+## Czat (kontakt)
+
+Ten sam widget co na ekartapobytu.pl: `public/czat-widget.js` (logika, Shadow DOM) + `public/czat-jezyki.js` (teksty PL/EN/UK/RU/ES). Osadzenie i konfiguracja (endpoint arkusza Google, WhatsApp, kolory) w `index.html`. Każdy element z atrybutem `data-prc-otworz-czat` otwiera czat. Zgłoszenia trafiają do wspólnego arkusza z polem `site = emigrante.pl`.

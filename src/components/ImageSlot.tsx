@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 interface Props {
@@ -8,12 +9,21 @@ interface Props {
 }
 
 /**
- * Slot na zdjęcie. Gdy `src` nie jest podane, renderuje placeholder `#DFE3EA`
- * z delikatnym opisem — do podmiany na docelowe fotografie.
+ * Slot na zdjęcie. Gdy `src` nie jest podane albo plik nie istnieje,
+ * renderuje placeholder `#DFE3EA` z delikatnym opisem — do podmiany na docelowe fotografie.
  */
 export function ImageSlot({ src, alt = "", label, className }: Props) {
-  if (src) {
-    return <img src={src} alt={alt} loading="lazy" className={cn("size-full object-cover", className)} />;
+  const [failed, setFailed] = useState(false);
+  if (src && !failed) {
+    return (
+      <img
+        src={src}
+        alt={alt}
+        loading="lazy"
+        onError={() => setFailed(true)}
+        className={cn("size-full object-cover", className)}
+      />
+    );
   }
   return (
     <div

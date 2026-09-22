@@ -18,7 +18,8 @@ function Counter({ value, suffix = "", label }: { value: number; suffix?: string
   );
 }
 
-function MarqueeColumn({ dir, delay }: { dir: "up" | "down"; delay: string }) {
+/** Karuzela: public/img/hero-01.jpg … hero-08.jpg (800×1040 px, pion 3:4). Kolumna A: 1–4, kolumna B: 5–8. */
+function MarqueeColumn({ dir, delay, offset }: { dir: "up" | "down"; delay: string; offset: number }) {
   const tiles = [0, 1, 2, 3];
   const list = [...tiles, ...tiles]; // ×2 dla płynnej pętli translateY(-50%)
   return (
@@ -29,7 +30,7 @@ function MarqueeColumn({ dir, delay }: { dir: "up" | "down"; delay: string }) {
     >
       {list.map((i, idx) => (
         <div key={idx} className="h-[260px] w-full rounded-[20px] overflow-hidden bg-photo flex-none">
-          <ImageSlot label={idx < 4 ? `Zdjęcie ${i + 1}` : ""} />
+          <ImageSlot src={`/img/hero-${String(offset + i + 1).padStart(2, "0")}.jpg`} label={idx < 4 ? `Zdjęcie ${offset + i + 1}` : ""} />
         </div>
       ))}
     </div>
@@ -68,7 +69,7 @@ export function Hero({ stats }: { stats: Stats }) {
                 className="size-11 rounded-full border-[3px] border-ground overflow-hidden"
                 style={{ background: bg, marginLeft: i ? -12 : 0 }}
               >
-                <ImageSlot label="" />
+                <ImageSlot src={`/img/avatar-${i + 1}.jpg`} label="" />
               </div>
             ))}
             <div className="size-11 rounded-full border-[3px] border-ground bg-navy text-lime grid place-items-center font-extrabold text-[12px] -ml-3">
@@ -92,8 +93,8 @@ export function Hero({ stats }: { stats: Stats }) {
 
       {/* Sygnatura: podwójna karuzela pionowa */}
       <div className="relative h-[clamp(420px,44vw,620px)] grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] gap-4 overflow-hidden rounded-[28px] hero-mask">
-        <MarqueeColumn dir="up" delay="0s" />
-        <MarqueeColumn dir="down" delay="-6s" />
+        <MarqueeColumn dir="up" delay="0s" offset={0} />
+        <MarqueeColumn dir="down" delay="-6s" offset={4} />
         <div className="absolute left-5 bottom-6 bg-ground rounded-2xl px-4 py-3 flex items-center gap-3 shadow-float pointer-events-none">
           <span className="size-[38px] rounded-xl bg-lime grid place-items-center font-extrabold text-navy">
             <Check size={18} strokeWidth={3} />

@@ -14,7 +14,7 @@ import { Calculator } from "@/components/sections/Calculator";
 import { Cases } from "@/components/sections/Cases";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Blog } from "@/components/sections/Blog";
-import { LeadForm } from "@/components/sections/LeadForm";
+import { ContactChat } from "@/components/sections/ContactChat";
 import { Footer } from "@/components/sections/Footer";
 
 export default function App() {
@@ -46,7 +46,7 @@ export default function App() {
         <Cases />
         <Testimonials items={testimonials} />
         <Blog />
-        <LeadForm />
+        <ContactChat />
       </main>
       <Footer />
     </div>
