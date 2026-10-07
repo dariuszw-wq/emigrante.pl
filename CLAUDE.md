@@ -13,6 +13,14 @@ Właściciel: Dariusz Włodarczyk — „Prawnik — Specjalizacja: Legalizacja 
 - Kopie zapasowe: wyłącznie repozytorium GitHub. Bez mirrorów na Google Drive.
 - Wszystkie prace prowadzimy w Claude Code — **nie w Claude Cowork** (żadnych zadań w sandboksie Cowork).
 
+## Zakres tego projektu (od 7.10.2026)
+- W tej sesji realizujemy **wyłącznie zadania dotyczące strony emigrante.pl**.
+- Inne projekty (COSC/cosc.org.pl, Etatowcy/etatowcy.pl, ekartapobytu.pl, baza wiedzy, sprawy kancelarii)
+  prowadzimy w ich własnych katalogach i sesjach — **nawet jeśli należą do wspólnej rodziny stron**.
+- Bez wyraźnego polecenia Dariusza nie dotykamy tu plików, repozytoriów ani zadań zaplanowanych
+  innych projektów. Jeśli zadanie dotyczy innego serwisu — powiedz o tym i zaproponuj przejście
+  do właściwego katalogu, zamiast wykonywać je tutaj.
+
 ## Stack i wdrożenie
 - Vite + React 19 + TypeScript + Tailwind v4 + shadcn/ui; i18n PL/EN/UK/RU/ES (`react-i18next`, `?lang=`).
 - Hosting: GitHub Pages przez `.github/workflows/deploy.yml`. Push na `main` = deploy (~1 min).
@@ -28,8 +36,10 @@ Osadzenie i konfiguracja w `index.html`. Dowolny element z atrybutem `data-prc-o
 Zgłoszenia trafiają do wspólnego arkusza Google z polem `site = emigrante.pl`. Supabase nieużywane.
 
 ## Automaty (zadania zaplanowane Claude Code, `C:\Users\PC\.claude\scheduled-tasks\`)
-- `emigrante-monitor-tygodniowy` — poniedziałki 9:00: dostępność, robots, sitemap, canonical,
-  Search Console (sc-domain:emigrante.pl), auto-zgłoszenie do indeksu, JSON-LD, wydajność.
+- **Od 7.10.2026 wszystkie automaty emigrante.pl są WYŁĄCZONE** — harmonogram układamy od nowa.
+  Nie włączaj ich samodzielnie; nowe zadania zakładaj dopiero na wyraźne polecenie Dariusza.
+- `emigrante-monitor-tygodniowy` — WYŁĄCZONE (było: poniedziałki 9:00 — dostępność, robots, sitemap,
+  canonical, Search Console (sc-domain:emigrante.pl), auto-zgłoszenie do indeksu, JSON-LD, wydajność).
 
 ## Do uzupełnienia
 - Zdjęcia (nazwy plików i rozmiary w `README.md`, sekcja „Zdjęcia — gdzie wgrać”).
