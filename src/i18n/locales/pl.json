@@ -167,6 +167,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Praca i wypadki",
+        "date": "8 paź 2026",
+        "title": "Wypadek pracownika sezonowego w rolnictwie. Komu i jakie odszkodowanie się należy",
+        "excerpt": "Pomocnik przy zbiorach, zlecenie, umowa o pracę, praca bez umowy — gdzie zgłosić wypadek i ile wynosi odszkodowanie z KRUS i ZUS. Obywatelstwo nie ma tu znaczenia.",
+        "href": "/blog/wypadek-pracownika-sezonowego-w-rolnictwie-odszkodowanie.html",
+        "image": "/blog/og-wypadek-rolnictwo.png"
+      },
+      {
         "category": "Legalizacja",
         "date": "18 wrz 2026",
         "title": "Nowe terminy rozpatrywania wniosków o pobyt czasowy — co zmienia ustawa",
@@ -177,14 +185,9 @@
         "date": "9 wrz 2026",
         "title": "PIP może ustalić stosunek pracy decyzją. Co to znaczy dla zleceń z cudzoziemcami",
         "excerpt": "Po nowelizacji inspektor pracy może przekształcić zlecenie w etat decyzją. Wyjaśniamy skutki dla firm zatrudniających cudzoziemców."
-      },
-      {
-        "category": "Kandydat",
-        "date": "1 wrz 2026",
-        "title": "Zmiana pracodawcy z kartą pobytu: kiedy potrzebna jest zmiana zezwolenia",
-        "excerpt": "Nowy pracodawca nie zawsze oznacza nowy wniosek. Tłumaczymy, kiedy wystarczy powiadomienie, a kiedy trzeba zmienić zezwolenie."
       }
-    ]
+    ],
+    "read": "Czytaj artykuł"
   },
   "footer": {
     "about": "Agencja zatrudnienia i legalizacji pobytu. Certyfikat KRAZ nr 00000.",

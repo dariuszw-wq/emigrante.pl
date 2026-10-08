@@ -167,6 +167,14 @@
     "photo": "Imagen de la entrada",
     "items": [
       {
+        "category": "Trabajo y accidentes",
+        "date": "8 oct 2026",
+        "title": "Accidente de un trabajador agrícola de temporada. Quién paga la indemnización y cuánto",
+        "excerpt": "Ayudante de cosecha, contrato civil, contrato de trabajo, trabajo sin contrato: dónde notificar el accidente y cuánto pagan KRUS y ZUS. La nacionalidad no cambia nada.",
+        "href": "/blog/wypadek-pracownika-sezonowego-w-rolnictwie-odszkodowanie.html",
+        "image": "/blog/og-wypadek-rolnictwo.png"
+      },
+      {
         "category": "Legalización",
         "date": "18 sep 2026",
         "title": "Nuevos plazos de tramitación de la residencia temporal: qué cambia la ley",
@@ -177,14 +185,9 @@
         "date": "9 sep 2026",
         "title": "PIP puede declarar una relación laboral por resolución. Qué significa para los contratos civiles con extranjeros",
         "excerpt": "Tras la reforma, el inspector de trabajo puede convertir un contrato civil en laboral por resolución. Explicamos las consecuencias para las empresas que emplean a extranjeros."
-      },
-      {
-        "category": "Candidato",
-        "date": "1 sep 2026",
-        "title": "Cambio de empleador con tarjeta de residencia: cuándo hace falta modificar el permiso",
-        "excerpt": "Un nuevo empleador no siempre implica una nueva solicitud. Explicamos cuándo basta una notificación y cuándo hay que modificar el permiso."
       }
-    ]
+    ],
+    "read": "Leer el artículo"
   },
   "footer": {
     "about": "Agencia de empleo y legalización de residencia. Certificado KRAZ n.º 00000.",
