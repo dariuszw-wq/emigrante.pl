@@ -167,6 +167,14 @@
     "photo": "Imagen de la entrada",
     "items": [
       {
+        "category": "Salario y embargo",
+        "date": "13 oct 2026",
+        "title": "¿Cuánto puede embargar el agente judicial del salario en 2027? Importes protegidos",
+        "excerpt": "Salario mínimo de 4950 PLN brutos e importe protegido de 3703,93 PLN netos. Calculamos qué queda con contrato de trabajo, contrato civil y en la cuenta bancaria.",
+        "href": "/blog/komornik-2027-kwoty-wolne-od-potracen.html",
+        "image": "/blog/og-komornik-2027.png"
+      },
+      {
         "category": "Trabajo y accidentes",
         "date": "8 oct 2026",
         "title": "Accidente de un trabajador agrícola de temporada. Quién paga la indemnización y cuánto",
@@ -179,12 +187,6 @@
         "date": "18 sep 2026",
         "title": "Nuevos plazos de tramitación de la residencia temporal: qué cambia la ley",
         "excerpt": "El Parlamento ha fijado nuevos plazos para los voivodas. Revisamos a quién afectan y qué hacer si el expediente ya está en curso."
-      },
-      {
-        "category": "Empleador",
-        "date": "9 sep 2026",
-        "title": "PIP puede declarar una relación laboral por resolución. Qué significa para los contratos civiles con extranjeros",
-        "excerpt": "Tras la reforma, el inspector de trabajo puede convertir un contrato civil en laboral por resolución. Explicamos las consecuencias para las empresas que emplean a extranjeros."
       }
     ],
     "read": "Leer el artículo"

@@ -167,6 +167,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Wynagrodzenie i egzekucja",
+        "date": "13 paź 2026",
+        "title": "Ile komornik zabierze z pensji w 2027 r. Kwoty wolne od potrąceń",
+        "excerpt": "Płaca minimalna 4950 zł brutto, kwota wolna 3703,93 zł netto. Liczymy, ile zostaje przy umowie o pracę, zleceniu, części etatu i na koncie bankowym.",
+        "href": "/blog/komornik-2027-kwoty-wolne-od-potracen.html",
+        "image": "/blog/og-komornik-2027.png"
+      },
+      {
         "category": "Praca i wypadki",
         "date": "8 paź 2026",
         "title": "Wypadek pracownika sezonowego w rolnictwie. Komu i jakie odszkodowanie się należy",
@@ -179,12 +187,6 @@
         "date": "18 wrz 2026",
         "title": "Nowe terminy rozpatrywania wniosków o pobyt czasowy — co zmienia ustawa",
         "excerpt": "Sejm uchwalił nowe terminy dla wojewodów. Sprawdzamy, kogo obejmą i co zrobić, gdy sprawa już trwa."
-      },
-      {
-        "category": "Pracodawca",
-        "date": "9 wrz 2026",
-        "title": "PIP może ustalić stosunek pracy decyzją. Co to znaczy dla zleceń z cudzoziemcami",
-        "excerpt": "Po nowelizacji inspektor pracy może przekształcić zlecenie w etat decyzją. Wyjaśniamy skutki dla firm zatrudniających cudzoziemców."
       }
     ],
     "read": "Czytaj artykuł"

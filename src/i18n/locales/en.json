@@ -167,6 +167,14 @@
     "photo": "Post image",
     "items": [
       {
+        "category": "Pay and enforcement",
+        "date": "13 Oct 2026",
+        "title": "How much can a bailiff take from your pay in 2027? Protected amounts",
+        "excerpt": "Minimum wage of PLN 4,950 gross, protected amount of PLN 3,703.93 net. We calculate what is left on an employment contract, a civil contract and in your bank account.",
+        "href": "/blog/komornik-2027-kwoty-wolne-od-potracen.html",
+        "image": "/blog/og-komornik-2027.png"
+      },
+      {
         "category": "Work and accidents",
         "date": "8 Oct 2026",
         "title": "Accident of a seasonal farm worker. Who pays the compensation and how much",
@@ -179,12 +187,6 @@
         "date": "18 Sep 2026",
         "title": "New processing deadlines for temporary residence applications — what the act changes",
         "excerpt": "Parliament has set new deadlines for voivodes. We check who they cover and what to do when a case is already pending."
-      },
-      {
-        "category": "Employer",
-        "date": "9 Sep 2026",
-        "title": "The Labour Inspectorate can establish an employment relationship by decision. What it means for contracts with foreigners",
-        "excerpt": "After the amendment, a labour inspector can turn a civil contract into employment by decision. We explain the consequences for companies employing foreigners."
       }
     ],
     "read": "Read the article"
