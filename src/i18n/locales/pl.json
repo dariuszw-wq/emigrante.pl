@@ -167,6 +167,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Prawo UE",
+        "date": "15 paź 2026",
+        "title": "Unijne 90 dni kontra polskie realia. Polska spóźniona z dyrektywą",
+        "excerpt": "Komisja wezwała Polskę za brak wdrożenia dyrektywy o jednym zezwoleniu. Co zmieni: 90 dni na decyzję, wniosek z zagranicy, 3 miesiące ochrony po utracie pracy.",
+        "href": "/blog/dyrektywa-jedno-zezwolenie-2024-1233-polska.html",
+        "image": "/blog/og-dyrektywa-jedno-zezwolenie.png"
+      },
+      {
         "category": "Wjazd do Polski",
         "date": "15 paź 2026",
         "title": "Cztery razy więcej pieniędzy na wjazd do Polski. Projekt MSWiA",
@@ -181,14 +189,6 @@
         "excerpt": "Płaca minimalna 4950 zł brutto, kwota wolna 3703,93 zł netto. Liczymy, ile zostaje przy umowie o pracę, zleceniu, części etatu i na koncie bankowym.",
         "href": "/blog/komornik-2027-kwoty-wolne-od-potracen.html",
         "image": "/blog/og-komornik-2027.png"
-      },
-      {
-        "category": "Praca i wypadki",
-        "date": "8 paź 2026",
-        "title": "Wypadek pracownika sezonowego w rolnictwie. Komu i jakie odszkodowanie się należy",
-        "excerpt": "Pomocnik przy zbiorach, zlecenie, umowa o pracę, praca bez umowy — gdzie zgłosić wypadek i ile wynosi odszkodowanie z KRUS i ZUS. Obywatelstwo nie ma tu znaczenia.",
-        "href": "/blog/wypadek-pracownika-sezonowego-w-rolnictwie-odszkodowanie.html",
-        "image": "/blog/og-wypadek-rolnictwo.png"
       }
     ],
     "read": "Czytaj artykuł"
