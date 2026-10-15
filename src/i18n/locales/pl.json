@@ -167,6 +167,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Wjazd do Polski",
+        "date": "15 paź 2026",
+        "title": "Cztery razy więcej pieniędzy na wjazd do Polski. Projekt MSWiA",
+        "excerpt": "300 zł za każdy dzień pobytu zamiast 75 zł, 1000 zł przy krótkiej wizycie, 2020 zł dla studentów. Sprawdzamy projekt i to, czego on nie zmienia.",
+        "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
+        "image": "/blog/og-wjazd-srodki-finansowe.png"
+      },
+      {
         "category": "Wynagrodzenie i egzekucja",
         "date": "13 paź 2026",
         "title": "Ile komornik zabierze z pensji w 2027 r. Kwoty wolne od potrąceń",
@@ -181,12 +189,6 @@
         "excerpt": "Pomocnik przy zbiorach, zlecenie, umowa o pracę, praca bez umowy — gdzie zgłosić wypadek i ile wynosi odszkodowanie z KRUS i ZUS. Obywatelstwo nie ma tu znaczenia.",
         "href": "/blog/wypadek-pracownika-sezonowego-w-rolnictwie-odszkodowanie.html",
         "image": "/blog/og-wypadek-rolnictwo.png"
-      },
-      {
-        "category": "Legalizacja",
-        "date": "18 wrz 2026",
-        "title": "Nowe terminy rozpatrywania wniosków o pobyt czasowy — co zmienia ustawa",
-        "excerpt": "Sejm uchwalił nowe terminy dla wojewodów. Sprawdzamy, kogo obejmą i co zrobić, gdy sprawa już trwa."
       }
     ],
     "read": "Czytaj artykuł"

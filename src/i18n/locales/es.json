@@ -167,6 +167,14 @@
     "photo": "Imagen de la entrada",
     "items": [
       {
+        "category": "Entrada a Polonia",
+        "date": "15 oct 2026",
+        "title": "Cuatro veces más dinero para entrar en Polonia. Proyecto del Ministerio del Interior",
+        "excerpt": "300 PLN por cada día de estancia en lugar de 75, 1000 PLN para una visita corta y 2020 PLN para estudiantes. Analizamos el proyecto y lo que no cambia.",
+        "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
+        "image": "/blog/og-wjazd-srodki-finansowe.png"
+      },
+      {
         "category": "Salario y embargo",
         "date": "13 oct 2026",
         "title": "¿Cuánto puede embargar el agente judicial del salario en 2027? Importes protegidos",
@@ -181,12 +189,6 @@
         "excerpt": "Ayudante de cosecha, contrato civil, contrato de trabajo, trabajo sin contrato: dónde notificar el accidente y cuánto pagan KRUS y ZUS. La nacionalidad no cambia nada.",
         "href": "/blog/wypadek-pracownika-sezonowego-w-rolnictwie-odszkodowanie.html",
         "image": "/blog/og-wypadek-rolnictwo.png"
-      },
-      {
-        "category": "Legalización",
-        "date": "18 sep 2026",
-        "title": "Nuevos plazos de tramitación de la residencia temporal: qué cambia la ley",
-        "excerpt": "El Parlamento ha fijado nuevos plazos para los voivodas. Revisamos a quién afectan y qué hacer si el expediente ya está en curso."
       }
     ],
     "read": "Leer el artículo"

@@ -167,6 +167,14 @@
     "photo": "Post image",
     "items": [
       {
+        "category": "Entry to Poland",
+        "date": "15 Oct 2026",
+        "title": "Four times more money to enter Poland. Draft regulation from the Interior Ministry",
+        "excerpt": "PLN 300 per day of stay instead of 75, PLN 1,000 for a short visit, PLN 2,020 for students. We go through the draft and what it leaves unchanged.",
+        "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
+        "image": "/blog/og-wjazd-srodki-finansowe.png"
+      },
+      {
         "category": "Pay and enforcement",
         "date": "13 Oct 2026",
         "title": "How much can a bailiff take from your pay in 2027? Protected amounts",
@@ -181,12 +189,6 @@
         "excerpt": "Harvest helper, civil contract, employment contract, undeclared work — where to report the accident and how much KRUS and ZUS pay. Citizenship makes no difference.",
         "href": "/blog/wypadek-pracownika-sezonowego-w-rolnictwie-odszkodowanie.html",
         "image": "/blog/og-wypadek-rolnictwo.png"
-      },
-      {
-        "category": "Legalisation",
-        "date": "18 Sep 2026",
-        "title": "New processing deadlines for temporary residence applications — what the act changes",
-        "excerpt": "Parliament has set new deadlines for voivodes. We check who they cover and what to do when a case is already pending."
       }
     ],
     "read": "Read the article"
