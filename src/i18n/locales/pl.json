@@ -167,6 +167,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Karta pobytu i praca",
+        "date": "16 paź 2026",
+        "title": "Adwokat, radca czy prawnik? Kogo wybrać do sprawy o kartę pobytu",
+        "excerpt": "U wojewody pełnomocnikiem może być każdy, w sądzie już tylko adwokat lub radca. Sprawdzamy, czym się różnią i kogo wybrać przy karcie pobytu i zezwoleniu na pracę.",
+        "href": "/blog/adwokat-radca-prawny-sprawy-cudzoziemcow.html",
+        "image": "/blog/og-adwokat-radca-prawnik.png"
+      },
+      {
         "category": "Prawo UE",
         "date": "15 paź 2026",
         "title": "Unijne 90 dni kontra polskie realia. Polska spóźniona z dyrektywą",
@@ -181,14 +189,6 @@
         "excerpt": "300 zł za każdy dzień pobytu zamiast 75 zł, 1000 zł przy krótkiej wizycie, 2020 zł dla studentów. Sprawdzamy projekt i to, czego on nie zmienia.",
         "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
         "image": "/blog/og-wjazd-srodki-finansowe.png"
-      },
-      {
-        "category": "Wynagrodzenie i egzekucja",
-        "date": "13 paź 2026",
-        "title": "Ile komornik zabierze z pensji w 2027 r. Kwoty wolne od potrąceń",
-        "excerpt": "Płaca minimalna 4950 zł brutto, kwota wolna 3703,93 zł netto. Liczymy, ile zostaje przy umowie o pracę, zleceniu, części etatu i na koncie bankowym.",
-        "href": "/blog/komornik-2027-kwoty-wolne-od-potracen.html",
-        "image": "/blog/og-komornik-2027.png"
       }
     ],
     "read": "Czytaj artykuł"

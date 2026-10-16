@@ -167,6 +167,14 @@
     "photo": "Imagen de la entrada",
     "items": [
       {
+        "category": "Residencia y trabajo",
+        "date": "16 oct 2026",
+        "title": "¿Abogado, asesor jurídico o jurista? A quién elegir para tu tarjeta de residencia",
+        "excerpt": "Ante el voivoda puede representarte cualquiera; ante el tribunal, solo un abogado o un asesor jurídico. Qué los diferencia y a quién elegir para la tarjeta de residencia y el permiso de trabajo.",
+        "href": "/blog/adwokat-radca-prawny-sprawy-cudzoziemcow.html",
+        "image": "/blog/og-adwokat-radca-prawnik.png"
+      },
+      {
         "category": "Derecho de la UE",
         "date": "15 oct 2026",
         "title": "Los 90 días de la UE frente a la realidad polaca. Polonia va tarde con la directiva",
@@ -181,14 +189,6 @@
         "excerpt": "300 PLN por cada día de estancia en lugar de 75, 1000 PLN para una visita corta y 2020 PLN para estudiantes. Analizamos el proyecto y lo que no cambia.",
         "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
         "image": "/blog/og-wjazd-srodki-finansowe.png"
-      },
-      {
-        "category": "Salario y embargo",
-        "date": "13 oct 2026",
-        "title": "¿Cuánto puede embargar el agente judicial del salario en 2027? Importes protegidos",
-        "excerpt": "Salario mínimo de 4950 PLN brutos e importe protegido de 3703,93 PLN netos. Calculamos qué queda con contrato de trabajo, contrato civil y en la cuenta bancaria.",
-        "href": "/blog/komornik-2027-kwoty-wolne-od-potracen.html",
-        "image": "/blog/og-komornik-2027.png"
       }
     ],
     "read": "Leer el artículo"

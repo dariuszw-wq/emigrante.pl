@@ -167,6 +167,14 @@
     "photo": "Post image",
     "items": [
       {
+        "category": "Residence and work",
+        "date": "16 Oct 2026",
+        "title": "Advocate, legal counsel or lawyer? Who to choose for your residence card case",
+        "excerpt": "Before the voivode anyone can act as your representative; before the court only an advocate or a legal counsel. What really differs and who to pick for a residence card or work permit.",
+        "href": "/blog/adwokat-radca-prawny-sprawy-cudzoziemcow.html",
+        "image": "/blog/og-adwokat-radca-prawnik.png"
+      },
+      {
         "category": "EU law",
         "date": "15 Oct 2026",
         "title": "EU's 90 days versus Polish reality. Poland late with the single permit directive",
@@ -181,14 +189,6 @@
         "excerpt": "PLN 300 per day of stay instead of 75, PLN 1,000 for a short visit, PLN 2,020 for students. We go through the draft and what it leaves unchanged.",
         "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
         "image": "/blog/og-wjazd-srodki-finansowe.png"
-      },
-      {
-        "category": "Pay and enforcement",
-        "date": "13 Oct 2026",
-        "title": "How much can a bailiff take from your pay in 2027? Protected amounts",
-        "excerpt": "Minimum wage of PLN 4,950 gross, protected amount of PLN 3,703.93 net. We calculate what is left on an employment contract, a civil contract and in your bank account.",
-        "href": "/blog/komornik-2027-kwoty-wolne-od-potracen.html",
-        "image": "/blog/og-komornik-2027.png"
       }
     ],
     "read": "Read the article"
