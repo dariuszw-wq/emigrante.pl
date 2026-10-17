@@ -167,6 +167,14 @@
     "photo": "Post image",
     "items": [
       {
+        "category": "Benefits and residence",
+        "date": "17 Oct 2026",
+        "title": "PLN 300 per child from ZUS. Can a foreigner claim it?",
+        "excerpt": "Your residence title decides, not your citizenship. Since 1 July 2026 a legal-work condition applies, and ZUS accepts applications only until 30 November.",
+        "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
+        "image": "/blog/og-300-plus-dobry-start.png"
+      },
+      {
         "category": "Residence and work",
         "date": "16 Oct 2026",
         "title": "Advocate, legal counsel or lawyer? Who to choose for your residence card case",
@@ -181,14 +189,6 @@
         "excerpt": "The Commission has sent Poland a formal notice over the single permit directive. What would change: 90 days for a decision, applying from abroad, three months of protection after job loss.",
         "href": "/blog/dyrektywa-jedno-zezwolenie-2024-1233-polska.html",
         "image": "/blog/og-dyrektywa-jedno-zezwolenie.png"
-      },
-      {
-        "category": "Entry to Poland",
-        "date": "15 Oct 2026",
-        "title": "Four times more money to enter Poland. Draft regulation from the Interior Ministry",
-        "excerpt": "PLN 300 per day of stay instead of 75, PLN 1,000 for a short visit, PLN 2,020 for students. We go through the draft and what it leaves unchanged.",
-        "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
-        "image": "/blog/og-wjazd-srodki-finansowe.png"
       }
     ],
     "read": "Read the article"

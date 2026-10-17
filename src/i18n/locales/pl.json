@@ -167,6 +167,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Świadczenia i karta pobytu",
+        "date": "17 paź 2026",
+        "title": "300 zł na dziecko z ZUS. Czy należy się cudzoziemcowi?",
+        "excerpt": "Decyduje tytuł pobytowy, nie obywatelstwo. Od 1 lipca 2026 r. doszedł warunek legalnej pracy, a wnioski ZUS przyjmuje tylko do 30 listopada.",
+        "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
+        "image": "/blog/og-300-plus-dobry-start.png"
+      },
+      {
         "category": "Karta pobytu i praca",
         "date": "16 paź 2026",
         "title": "Adwokat, radca czy prawnik? Kogo wybrać do sprawy o kartę pobytu",
@@ -181,14 +189,6 @@
         "excerpt": "Komisja wezwała Polskę za brak wdrożenia dyrektywy o jednym zezwoleniu. Co zmieni: 90 dni na decyzję, wniosek z zagranicy, 3 miesiące ochrony po utracie pracy.",
         "href": "/blog/dyrektywa-jedno-zezwolenie-2024-1233-polska.html",
         "image": "/blog/og-dyrektywa-jedno-zezwolenie.png"
-      },
-      {
-        "category": "Wjazd do Polski",
-        "date": "15 paź 2026",
-        "title": "Cztery razy więcej pieniędzy na wjazd do Polski. Projekt MSWiA",
-        "excerpt": "300 zł za każdy dzień pobytu zamiast 75 zł, 1000 zł przy krótkiej wizycie, 2020 zł dla studentów. Sprawdzamy projekt i to, czego on nie zmienia.",
-        "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
-        "image": "/blog/og-wjazd-srodki-finansowe.png"
       }
     ],
     "read": "Czytaj artykuł"

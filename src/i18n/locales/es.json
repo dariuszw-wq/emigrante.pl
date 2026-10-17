@@ -167,6 +167,14 @@
     "photo": "Imagen de la entrada",
     "items": [
       {
+        "category": "Prestaciones y residencia",
+        "date": "17 oct 2026",
+        "title": "300 zlotys por hijo del ZUS. ¿Le corresponde a un extranjero?",
+        "excerpt": "Decide tu título de residencia, no la nacionalidad. Desde el 1 de julio de 2026 se exige trabajo legal y el ZUS admite solicitudes solo hasta el 30 de noviembre.",
+        "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
+        "image": "/blog/og-300-plus-dobry-start.png"
+      },
+      {
         "category": "Residencia y trabajo",
         "date": "16 oct 2026",
         "title": "¿Abogado, asesor jurídico o jurista? A quién elegir para tu tarjeta de residencia",
@@ -181,14 +189,6 @@
         "excerpt": "La Comisión ha enviado a Polonia una carta de emplazamiento por la directiva de permiso único. Qué cambiaría: 90 días para resolver, solicitud desde el extranjero y tres meses de protección tras perder el empleo.",
         "href": "/blog/dyrektywa-jedno-zezwolenie-2024-1233-polska.html",
         "image": "/blog/og-dyrektywa-jedno-zezwolenie.png"
-      },
-      {
-        "category": "Entrada a Polonia",
-        "date": "15 oct 2026",
-        "title": "Cuatro veces más dinero para entrar en Polonia. Proyecto del Ministerio del Interior",
-        "excerpt": "300 PLN por cada día de estancia en lugar de 75, 1000 PLN para una visita corta y 2020 PLN para estudiantes. Analizamos el proyecto y lo que no cambia.",
-        "href": "/blog/wjazd-do-polski-srodki-finansowe-projekt-mswia.html",
-        "image": "/blog/og-wjazd-srodki-finansowe.png"
       }
     ],
     "read": "Leer el artículo"
