@@ -168,6 +168,14 @@
     "items": [
       {
         "category": "Prestaciones y residencia",
+        "date": "29 oct 2026",
+        "title": "El ZUS denegó el 800+ a los hermanos sanos. Los tribunales opinan otra cosa",
+        "excerpt": "Desde el 1 de febrero de 2026 el extranjero debe acreditar actividad laboral. Tres sentencias muestran dónde se excede el ZUS y cómo recurrir.",
+        "href": "/blog/800-plus-cudzoziemiec-aktywnosc-zawodowa.html",
+        "image": "/blog/og-800-plus-cudzoziemcy.png"
+      },
+      {
+        "category": "Prestaciones y residencia",
         "date": "17 oct 2026",
         "title": "300 zlotys por hijo del ZUS. ¿Le corresponde a un extranjero?",
         "excerpt": "Decide tu título de residencia, no la nacionalidad. Desde el 1 de julio de 2026 se exige trabajo legal y el ZUS admite solicitudes solo hasta el 30 de noviembre.",
@@ -181,14 +189,6 @@
         "excerpt": "Ante el voivoda puede representarte cualquiera; ante el tribunal, solo un abogado o un asesor jurídico. Qué los diferencia y a quién elegir para la tarjeta de residencia y el permiso de trabajo.",
         "href": "/blog/adwokat-radca-prawny-sprawy-cudzoziemcow.html",
         "image": "/blog/og-adwokat-radca-prawnik.png"
-      },
-      {
-        "category": "Derecho de la UE",
-        "date": "15 oct 2026",
-        "title": "Los 90 días de la UE frente a la realidad polaca. Polonia va tarde con la directiva",
-        "excerpt": "La Comisión ha enviado a Polonia una carta de emplazamiento por la directiva de permiso único. Qué cambiaría: 90 días para resolver, solicitud desde el extranjero y tres meses de protección tras perder el empleo.",
-        "href": "/blog/dyrektywa-jedno-zezwolenie-2024-1233-polska.html",
-        "image": "/blog/og-dyrektywa-jedno-zezwolenie.png"
       }
     ],
     "read": "Leer el artículo"

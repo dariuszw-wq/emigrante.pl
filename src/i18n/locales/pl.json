@@ -168,6 +168,14 @@
     "items": [
       {
         "category": "Świadczenia i karta pobytu",
+        "date": "29 paź 2026",
+        "title": "ZUS odmówił 800+ na zdrowe dzieci. Sądy: tak czytać przepisu nie można",
+        "excerpt": "Od 1 lutego 2026 r. cudzoziemiec musi wykazać aktywność zawodową. Trzy wyroki WSA pokazują, kiedy ZUS idzie za daleko i jak się odwołać.",
+        "href": "/blog/800-plus-cudzoziemiec-aktywnosc-zawodowa.html",
+        "image": "/blog/og-800-plus-cudzoziemcy.png"
+      },
+      {
+        "category": "Świadczenia i karta pobytu",
         "date": "17 paź 2026",
         "title": "300 zł na dziecko z ZUS. Czy należy się cudzoziemcowi?",
         "excerpt": "Decyduje tytuł pobytowy, nie obywatelstwo. Od 1 lipca 2026 r. doszedł warunek legalnej pracy, a wnioski ZUS przyjmuje tylko do 30 listopada.",
@@ -181,14 +189,6 @@
         "excerpt": "U wojewody pełnomocnikiem może być każdy, w sądzie już tylko adwokat lub radca. Sprawdzamy, czym się różnią i kogo wybrać przy karcie pobytu i zezwoleniu na pracę.",
         "href": "/blog/adwokat-radca-prawny-sprawy-cudzoziemcow.html",
         "image": "/blog/og-adwokat-radca-prawnik.png"
-      },
-      {
-        "category": "Prawo UE",
-        "date": "15 paź 2026",
-        "title": "Unijne 90 dni kontra polskie realia. Polska spóźniona z dyrektywą",
-        "excerpt": "Komisja wezwała Polskę za brak wdrożenia dyrektywy o jednym zezwoleniu. Co zmieni: 90 dni na decyzję, wniosek z zagranicy, 3 miesiące ochrony po utracie pracy.",
-        "href": "/blog/dyrektywa-jedno-zezwolenie-2024-1233-polska.html",
-        "image": "/blog/og-dyrektywa-jedno-zezwolenie.png"
       }
     ],
     "read": "Czytaj artykuł"
