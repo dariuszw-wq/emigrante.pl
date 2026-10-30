@@ -167,6 +167,14 @@
     "photo": "Post image",
     "items": [
       {
+        "category": "Citizenship and residence",
+        "date": "30 Oct 2026",
+        "title": "A Polish passport on new terms. What the government plans for foreigners",
+        "excerpt": "B2 instead of B1, a civic test and a longer stay — a draft by the Interior Ministry. See what applies today and why it may pay to apply sooner.",
+        "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
+        "image": "/blog/og-obywatelstwo-polskie.png"
+      },
+      {
         "category": "Benefits and residence",
         "date": "29 Oct 2026",
         "title": "ZUS refused 800+ for the healthy siblings. The courts disagreed",
@@ -181,14 +189,6 @@
         "excerpt": "Your residence title decides, not your citizenship. Since 1 July 2026 a legal-work condition applies, and ZUS accepts applications only until 30 November.",
         "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
         "image": "/blog/og-300-plus-dobry-start.png"
-      },
-      {
-        "category": "Residence and work",
-        "date": "16 Oct 2026",
-        "title": "Advocate, legal counsel or lawyer? Who to choose for your residence card case",
-        "excerpt": "Before the voivode anyone can act as your representative; before the court only an advocate or a legal counsel. What really differs and who to pick for a residence card or work permit.",
-        "href": "/blog/adwokat-radca-prawny-sprawy-cudzoziemcow.html",
-        "image": "/blog/og-adwokat-radca-prawnik.png"
       }
     ],
     "read": "Read the article"

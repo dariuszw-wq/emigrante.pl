@@ -167,6 +167,14 @@
     "photo": "Imagen de la entrada",
     "items": [
       {
+        "category": "Ciudadanía y residencia",
+        "date": "30 oct 2026",
+        "title": "El pasaporte polaco con nuevas condiciones. Lo que prepara el Gobierno",
+        "excerpt": "B2 en vez de B1, un examen cívico y una residencia más larga: proyecto del Ministerio del Interior. Qué rige hoy y por qué conviene solicitar antes.",
+        "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
+        "image": "/blog/og-obywatelstwo-polskie.png"
+      },
+      {
         "category": "Prestaciones y residencia",
         "date": "29 oct 2026",
         "title": "El ZUS denegó el 800+ a los hermanos sanos. Los tribunales opinan otra cosa",
@@ -181,14 +189,6 @@
         "excerpt": "Decide tu título de residencia, no la nacionalidad. Desde el 1 de julio de 2026 se exige trabajo legal y el ZUS admite solicitudes solo hasta el 30 de noviembre.",
         "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
         "image": "/blog/og-300-plus-dobry-start.png"
-      },
-      {
-        "category": "Residencia y trabajo",
-        "date": "16 oct 2026",
-        "title": "¿Abogado, asesor jurídico o jurista? A quién elegir para tu tarjeta de residencia",
-        "excerpt": "Ante el voivoda puede representarte cualquiera; ante el tribunal, solo un abogado o un asesor jurídico. Qué los diferencia y a quién elegir para la tarjeta de residencia y el permiso de trabajo.",
-        "href": "/blog/adwokat-radca-prawny-sprawy-cudzoziemcow.html",
-        "image": "/blog/og-adwokat-radca-prawnik.png"
       }
     ],
     "read": "Leer el artículo"

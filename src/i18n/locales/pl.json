@@ -167,6 +167,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Obywatelstwo i pobyt",
+        "date": "30 paź 2026",
+        "title": "Polski paszport pod nowymi warunkami. Co rząd szykuje dla cudzoziemców",
+        "excerpt": "B2 zamiast B1, test obywatelski i dłuższy pobyt — projekt MSWiA. Sprawdź, co obowiązuje dziś i dlaczego warto złożyć wniosek o uznanie wcześniej.",
+        "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
+        "image": "/blog/og-obywatelstwo-polskie.png"
+      },
+      {
         "category": "Świadczenia i karta pobytu",
         "date": "29 paź 2026",
         "title": "ZUS odmówił 800+ na zdrowe dzieci. Sądy: tak czytać przepisu nie można",
@@ -181,14 +189,6 @@
         "excerpt": "Decyduje tytuł pobytowy, nie obywatelstwo. Od 1 lipca 2026 r. doszedł warunek legalnej pracy, a wnioski ZUS przyjmuje tylko do 30 listopada.",
         "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
         "image": "/blog/og-300-plus-dobry-start.png"
-      },
-      {
-        "category": "Karta pobytu i praca",
-        "date": "16 paź 2026",
-        "title": "Adwokat, radca czy prawnik? Kogo wybrać do sprawy o kartę pobytu",
-        "excerpt": "U wojewody pełnomocnikiem może być każdy, w sądzie już tylko adwokat lub radca. Sprawdzamy, czym się różnią i kogo wybrać przy karcie pobytu i zezwoleniu na pracę.",
-        "href": "/blog/adwokat-radca-prawny-sprawy-cudzoziemcow.html",
-        "image": "/blog/og-adwokat-radca-prawnik.png"
       }
     ],
     "read": "Czytaj artykuł"
