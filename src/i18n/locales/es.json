@@ -166,6 +166,14 @@
     "all": "Todas las entradas",
     "photo": "Imagen de la entrada",
     "items": [
+        {
+          "category": "Derecho laboral",
+          "date": "6 nov 2026",
+          "title": "Descanso por el 26 de diciembre de 2026 y vacaciones",
+          "excerpt": "Quién fija el día libre y cómo afecta a las vacaciones ya solicitadas. Artículo en polaco.",
+          "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
+          "image": "/blog/wolne-za-swieta-planowanie.webp"
+        },
       {
         "category": "Ciudadanía y residencia",
         "date": "30 oct 2026",

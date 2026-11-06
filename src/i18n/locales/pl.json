@@ -166,6 +166,14 @@
     "all": "Wszystkie wpisy",
     "photo": "Grafika wpisu",
     "items": [
+        {
+          "category": "Prawo pracy",
+          "date": "6 listopada 2026",
+          "title": "Wolne za 26 grudnia 2026: termin i zaplanowany urlop",
+          "excerpt": "Dzień wolny za świąteczną sobotę nie zużywa urlopu. Termin wyznacza pracodawca; 28 grudnia nie jest wolny we wszystkich firmach.",
+          "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
+          "image": "/blog/wolne-za-swieta-planowanie.webp"
+        },
       {
         "category": "Obywatelstwo i pobyt",
         "date": "30 paź 2026",

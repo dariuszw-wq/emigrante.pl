@@ -166,6 +166,14 @@
     "all": "All posts",
     "photo": "Post image",
     "items": [
+        {
+          "category": "Employment law",
+          "date": "6 Nov 2026",
+          "title": "Time off for 26 December 2026: dates and annual leave",
+          "excerpt": "Who chooses the day off and what happens to booked annual leave? Article in Polish.",
+          "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
+          "image": "/blog/wolne-za-swieta-planowanie.webp"
+        },
       {
         "category": "Citizenship and residence",
         "date": "30 Oct 2026",
