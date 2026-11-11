@@ -1,8 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { logos } from "@/data/seed";
 
+/**
+ * Pasek "Zaufali nam pracodawcy" wymienia z nazwy tylko firmy, które realnie
+ * obsługujemy i które zgodziły się na wymienienie. Pusta lista = sekcja znika.
+ */
 export function Logos() {
   const { t } = useTranslation();
+  if (logos.length === 0) return null;
   return (
     <section className="container-site pt-2 pb-14">
       <p className="text-center text-[13px] font-bold tracking-[0.08em] uppercase text-faint mb-5">{t("logos.title")}</p>

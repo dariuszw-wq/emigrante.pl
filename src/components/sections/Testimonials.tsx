@@ -1,8 +1,13 @@
 import { useTranslation } from "react-i18next";
 import type { Testimonial } from "@/data/types";
 
+/**
+ * Publikujemy wyłącznie prawdziwe wypowiedzi, za zgodą osoby (src/data/seed.ts).
+ * Pusta lista = sekcja nie jest renderowana.
+ */
 export function Testimonials({ items }: { items: Testimonial[] }) {
   const { t } = useTranslation();
+  if (items.length === 0) return null;
   return (
     <section className="container-site pt-[88px] pb-14">
       <div className="max-w-[640px]">

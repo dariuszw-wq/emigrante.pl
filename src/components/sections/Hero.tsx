@@ -39,6 +39,12 @@ function MarqueeColumn({ dir, delay, offset }: { dir: "up" | "down"; delay: stri
 
 export function Hero({ stats }: { stats: Stats }) {
   const { t } = useTranslation();
+  // Pokazujemy wyłącznie liczby potwierdzone. null = kafelek nie istnieje.
+  const counters = [
+    { value: stats.hired, suffix: "", label: t("hero.stat_hired") },
+    { value: stats.employers, suffix: "+", label: t("hero.stat_employers") },
+    { value: stats.years, suffix: "", label: t("hero.stat_years") },
+  ].filter((c): c is { value: number; suffix: string; label: string } => c.value !== null);
   return (
     <section className="container-site pt-[clamp(48px,7vw,96px)] pb-10 grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-x-[clamp(24px,4vw,64px)] gap-y-12 items-center">
       <div>
@@ -61,34 +67,13 @@ export function Hero({ stats }: { stats: Stats }) {
           </Button>
         </div>
 
-        <div className="flex items-center gap-4 flex-wrap mt-[34px]">
-          <div className="flex">
-            {["#d8dce3", "#c3c9d3", "#aeb6c3"].map((bg, i) => (
-              <div
-                key={i}
-                className="size-11 rounded-full border-[3px] border-ground overflow-hidden"
-                style={{ background: bg, marginLeft: i ? -12 : 0 }}
-              >
-                <ImageSlot src={`/img/avatar-${i + 1}.jpg`} label="" />
-              </div>
+        {counters.length > 0 && (
+          <div className="flex flex-wrap gap-9 mt-10 pt-7 border-t border-navy/10">
+            {counters.map((c) => (
+              <Counter key={c.label} value={c.value} suffix={c.suffix} label={c.label} />
             ))}
-            <div className="size-11 rounded-full border-[3px] border-ground bg-navy text-lime grid place-items-center font-extrabold text-[12px] -ml-3">
-              +1k
-            </div>
           </div>
-          <div>
-            <div className="flex items-center gap-[6px] font-extrabold text-[15px]">
-              <span className="text-star tracking-[1px]" aria-hidden="true">★★★★★</span> {t("hero.rating")}
-            </div>
-            <div className="text-[13px] text-muted">{t("hero.rating_note")}</div>
-          </div>
-        </div>
-
-        <div className="grid grid-cols-[repeat(3,auto)] gap-9 mt-10 pt-7 border-t border-navy/10 justify-start">
-          <Counter value={stats.hired} label={t("hero.stat_hired")} />
-          <Counter value={stats.employers} suffix="+" label={t("hero.stat_employers")} />
-          <Counter value={stats.years} label={t("hero.stat_years")} />
-        </div>
+        )}
       </div>
 
       {/* Sygnatura: podwójna karuzela pionowa */}

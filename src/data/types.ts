@@ -21,13 +21,18 @@ export interface Testimonial {
   initials: string;
 }
 
+/**
+ * null = liczby nie znamy albo nie da się jej potwierdzić. Taki wskaznik
+ * nie jest renderowany wcale — na stronie nie pokazujemy liczb szacunkowych
+ * ani przykladowych, bo to twierdzenie o firmie, nie element dekoracyjny.
+ */
 export interface Stats {
-  hired: number;
-  employers: number;
-  years: number;
-  cases: number;
-  days: number;
-  recommend: number;
+  hired: number | null;
+  employers: number | null;
+  years: number | null;
+  cases: number | null;
+  days: number | null;
+  recommend: number | null;
 }
 
 export interface FeeConfig {
