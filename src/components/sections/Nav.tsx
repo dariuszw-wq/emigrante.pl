@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Menu, X } from "lucide-react";
+import { Menu, ShieldCheck, UserRound, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { useAuth } from "@/lib/auth";
+import { usePanels } from "@/lib/panels";
 
 const LINKS = [
   { key: "jobs", href: "#oferty" },
@@ -29,6 +31,8 @@ export function Logo({ className }: { className?: string }) {
 }
 
 export function Nav() {
+  const auth = useAuth();
+  const { otworzKreator, otworzProfil, otworzModeracje } = usePanels();
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
 
@@ -47,6 +51,19 @@ export function Nav() {
         </div>
 
         <div className="hidden md:flex gap-[10px]">
+          {auth.moderator && (
+            <Button type="button" variant="outline" size="md" onClick={otworzModeracje} title={t("nav.moderation")}>
+              <ShieldCheck size={16} /> {t("nav.moderation")}
+            </Button>
+          )}
+          <Button
+            type="button"
+            variant="outline"
+            size="md"
+            onClick={auth.zalogowany ? otworzProfil : otworzKreator}
+          >
+            <UserRound size={16} /> {auth.zalogowany ? t("nav.profile") : t("nav.login")}
+          </Button>
           <Button asChild variant="outline" size="md">
             <button type="button" data-prc-otworz-czat="nav">{t("nav.contact")}</button>
           </Button>
@@ -75,6 +92,18 @@ export function Nav() {
               </a>
             ))}
             <div className="flex gap-[10px] pt-2 flex-wrap">
+              <Button
+                type="button"
+                variant="outline"
+                size="md"
+                onClick={() => {
+                  setOpen(false);
+                  if (auth.zalogowany) otworzProfil();
+                  else otworzKreator();
+                }}
+              >
+                <UserRound size={16} /> {auth.zalogowany ? t("nav.profile") : t("nav.login")}
+              </Button>
               <Button asChild variant="outline" size="md">
                 <button type="button" data-prc-otworz-czat="nav-mobile" onClick={() => setOpen(false)}>{t("nav.contact")}</button>
               </Button>

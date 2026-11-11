@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
+import { usePanels } from "@/lib/panels";
 import type { Industry, Job } from "@/data/types";
 
 const FILTERS: Array<"all" | Industry> = ["all", "produkcja", "logistyka", "budownictwo", "gastronomia"];
@@ -8,7 +9,10 @@ const FILTERS: Array<"all" | Industry> = ["all", "produkcja", "logistyka", "budo
 function useRelativeDate() {
   const { t } = useTranslation();
   return (iso: string) => {
-    const days = Math.max(0, Math.round((Date.now() - new Date(iso).getTime()) / 86400000));
+    // Liczymy różnicę dni kalendarzowych, nie godzin: oferta dodana wieczorem
+    // nie może rano pokazywać "wczoraj", a sama data bez godziny parsuje się jako UTC.
+    const doPolnocy = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
+    const days = Math.max(0, Math.round((doPolnocy(new Date()) - doPolnocy(new Date(iso))) / 86400000));
     if (days === 0) return t("jobs.today");
     if (days === 1) return t("jobs.yesterday");
     if (days < 7) return t("jobs.days_ago", { count: days });
@@ -23,6 +27,7 @@ function useRelativeDate() {
  */
 function NoJobs() {
   const { t } = useTranslation();
+  const { otworzKreator } = usePanels();
   return (
     <div className="mt-9 rounded-[20px] border border-dashed border-navy/20 bg-ground px-6 py-12 text-center">
       <p className="mx-auto max-w-[56ch] text-[16px] leading-[1.6] text-muted">{t("jobs.none_text")}</p>
@@ -30,7 +35,7 @@ function NoJobs() {
         <Button type="button" variant="navy" size="md" data-prc-otworz-czat="oferty-brak-kandydat">
           {t("jobs.none_cta_worker")}
         </Button>
-        <Button type="button" variant="outline" size="md" data-prc-otworz-czat="oferty-brak-pracodawca">
+        <Button type="button" variant="outline" size="md" onClick={otworzKreator}>
           {t("jobs.none_cta_employer")}
         </Button>
       </div>
@@ -40,6 +45,7 @@ function NoJobs() {
 
 export function Jobs({ jobs }: { jobs: Job[] }) {
   const { t } = useTranslation();
+  const { otworzKreator } = usePanels();
   const [filter, setFilter] = useState<"all" | Industry>("all");
   const rel = useRelativeDate();
   const empty = jobs.length === 0;
@@ -100,6 +106,14 @@ export function Jobs({ jobs }: { jobs: Job[] }) {
             {visible.length === 0 && (
               <p className="text-muted text-[15px] col-span-full">{t("jobs.empty")}</p>
             )}
+          </div>
+        )}
+        {!empty && (
+          <div className="mt-9 flex flex-wrap items-center justify-center gap-4 rounded-[18px] border border-dashed border-navy/20 px-6 py-5 text-center">
+            <p className="text-[14px] text-muted">{t("jobs.employer_invite")}</p>
+            <Button type="button" variant="navy" size="md" onClick={otworzKreator}>
+              {t("jobs.employer_cta")}
+            </Button>
           </div>
         )}
       </div>

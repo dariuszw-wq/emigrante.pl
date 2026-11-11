@@ -15,7 +15,10 @@
     "blog": "Blog",
     "contact": "Contacto",
     "apply": "Enviar solicitud",
-    "menu": "Menú"
+    "menu": "Menú",
+    "profile": "Mi perfil",
+    "login": "Iniciar sesión",
+    "moderation": "Por revisar"
   },
   "hero": {
     "badge": "Agencia de empleo · certificado KRAZ",
@@ -52,7 +55,9 @@
     "none_title": "Ahora mismo no tenemos ofertas abiertas",
     "none_text": "En este momento no hay ninguna oferta de trabajo abierta. Estamos esperando que los empleadores nos envíen nuevas vacantes: aparecerán justo aquí. Vuelve pronto o déjanos tus datos de contacto y te avisaremos cuando surja trabajo para ti.",
     "none_cta_worker": "Dejar mis datos de contacto",
-    "none_cta_employer": "Soy empleador y tengo una vacante"
+    "none_cta_employer": "Soy empleador y tengo una vacante",
+    "employer_invite": "¿Tienes una vacante? Publica una oferta gratis.",
+    "employer_cta": "Publicar oferta"
   },
   "services": {
     "kicker": "Nuestros servicios",

@@ -15,7 +15,10 @@
     "blog": "Blog",
     "contact": "Contact",
     "apply": "Send an enquiry",
-    "menu": "Menu"
+    "menu": "Menu",
+    "profile": "My profile",
+    "login": "Sign in",
+    "moderation": "To review"
   },
   "hero": {
     "badge": "Employment agency · KRAZ certificate",
@@ -52,7 +55,9 @@
     "none_title": "We have no open offers at the moment",
     "none_text": "There are no open job offers right now. We are waiting for employers to send in new vacancies — they will appear right here. Check back soon, or leave us your contact details and we will let you know when work comes up for you.",
     "none_cta_worker": "Leave your contact details",
-    "none_cta_employer": "I'm an employer with a vacancy"
+    "none_cta_employer": "I'm an employer with a vacancy",
+    "employer_invite": "Got a vacancy? Post an offer free of charge.",
+    "employer_cta": "Post an offer"
   },
   "services": {
     "kicker": "Our services",

@@ -15,7 +15,10 @@
     "blog": "Blog",
     "contact": "Kontakt",
     "apply": "Wyślij zgłoszenie",
-    "menu": "Menu"
+    "menu": "Menu",
+    "profile": "Mój profil",
+    "login": "Zaloguj",
+    "moderation": "Do sprawdzenia"
   },
   "hero": {
     "badge": "Agencja zatrudnienia · certyfikat KRAZ",
@@ -52,7 +55,9 @@
     "none_title": "W tej chwili nie mamy otwartych ofert",
     "none_text": "Nie mamy teraz żadnej otwartej oferty pracy. Czekamy na zgłoszenia od pracodawców — nowe ogłoszenia pojawią się w tym miejscu. Zajrzyj do nas wkrótce albo zostaw kontakt, a damy znać, gdy pojawi się praca dla Ciebie.",
     "none_cta_worker": "Zostaw kontakt — damy znać",
-    "none_cta_employer": "Jestem pracodawcą, mam wakat"
+    "none_cta_employer": "Jestem pracodawcą, mam wakat",
+    "employer_invite": "Masz wakat? Wystaw ogłoszenie bezpłatnie.",
+    "employer_cta": "Dodaj ogłoszenie"
   },
   "services": {
     "kicker": "Nasze usługi",
