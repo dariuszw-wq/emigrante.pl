@@ -49,7 +49,12 @@
     "yesterday": "wczoraj",
     "days_ago": "{{count}} dni",
     "week_ago": "tydzień",
-    "empty": "Brak ofert w tej kategorii. Zostaw zgłoszenie — odezwiemy się, gdy pojawi się nowa."
+    "empty": "Brak ofert w tej kategorii. Zostaw zgłoszenie — odezwiemy się, gdy pojawi się nowa.",
+    "none_kicker": "Oferty pracy",
+    "none_title": "W tej chwili nie mamy otwartych ofert",
+    "none_text": "Nie mamy teraz żadnej otwartej oferty pracy. Czekamy na zgłoszenia od pracodawców — nowe ogłoszenia pojawią się w tym miejscu. Zajrzyj do nas wkrótce albo zostaw kontakt, a damy znać, gdy pojawi się praca dla Ciebie.",
+    "none_cta_worker": "Zostaw kontakt — damy znać",
+    "none_cta_employer": "Jestem pracodawcą, mam wakat"
   },
   "services": {
     "kicker": "Nasze usługi",

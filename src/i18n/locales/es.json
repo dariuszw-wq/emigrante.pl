@@ -49,7 +49,12 @@
     "yesterday": "ayer",
     "days_ago": "hace {{count}} días",
     "week_ago": "hace una semana",
-    "empty": "No hay ofertas en esta categoría. Deja una solicitud y te avisaremos cuando aparezca una nueva."
+    "empty": "No hay ofertas en esta categoría. Deja una solicitud y te avisaremos cuando aparezca una nueva.",
+    "none_kicker": "Ofertas de trabajo",
+    "none_title": "Ahora mismo no tenemos ofertas abiertas",
+    "none_text": "En este momento no hay ninguna oferta de trabajo abierta. Estamos esperando que los empleadores nos envíen nuevas vacantes: aparecerán justo aquí. Vuelve pronto o déjanos tus datos de contacto y te avisaremos cuando surja trabajo para ti.",
+    "none_cta_worker": "Dejar mis datos de contacto",
+    "none_cta_employer": "Soy empleador y tengo una vacante"
   },
   "services": {
     "kicker": "Nuestros servicios",

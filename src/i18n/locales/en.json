@@ -49,7 +49,12 @@
     "yesterday": "yesterday",
     "days_ago": "{{count}} days ago",
     "week_ago": "a week ago",
-    "empty": "No offers in this category. Leave an enquiry — we'll get in touch when a new one appears."
+    "empty": "No offers in this category. Leave an enquiry — we'll get in touch when a new one appears.",
+    "none_kicker": "Job offers",
+    "none_title": "We have no open offers at the moment",
+    "none_text": "There are no open job offers right now. We are waiting for employers to send in new vacancies — they will appear right here. Check back soon, or leave us your contact details and we will let you know when work comes up for you.",
+    "none_cta_worker": "Leave your contact details",
+    "none_cta_employer": "I'm an employer with a vacancy"
   },
   "services": {
     "kicker": "Our services",
