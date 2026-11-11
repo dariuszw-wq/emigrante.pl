@@ -18,7 +18,7 @@ function Counter({ value, suffix = "", label }: { value: number; suffix?: string
   );
 }
 
-/** Karuzela: public/img/hero-01.jpg … hero-08.jpg (800×1040 px, pion 3:4). Kolumna A: 1–4, kolumna B: 5–8. */
+/** Karuzela: public/img/hero-01.webp … hero-08.webp (800×1040 px, pion 3:4). Kolumna A: 1–4, kolumna B: 5–8. */
 function MarqueeColumn({ dir, delay, offset }: { dir: "up" | "down"; delay: string; offset: number }) {
   const tiles = [0, 1, 2, 3];
   const list = [...tiles, ...tiles]; // ×2 dla płynnej pętli translateY(-50%)
@@ -30,7 +30,7 @@ function MarqueeColumn({ dir, delay, offset }: { dir: "up" | "down"; delay: stri
     >
       {list.map((i, idx) => (
         <div key={idx} className="h-[260px] w-full rounded-[20px] overflow-hidden bg-photo flex-none">
-          <ImageSlot src={`/img/hero-${String(offset + i + 1).padStart(2, "0")}.jpg`} label={idx < 4 ? `Zdjęcie ${offset + i + 1}` : ""} />
+          <ImageSlot src={`/img/hero-${String(offset + i + 1).padStart(2, "0")}.webp`} label={idx < 4 ? `Zdjęcie ${offset + i + 1}` : ""} />
         </div>
       ))}
     </div>

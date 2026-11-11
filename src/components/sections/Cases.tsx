@@ -21,7 +21,7 @@ export function Cases() {
           {items.map((c, i) => (
             <article key={c.title} className="rounded-[22px] overflow-hidden border border-navy/8 bg-ground">
               <div className="h-[220px]">
-                <ImageSlot src={`/img/case-${String(i + 1).padStart(2, "0")}.jpg`} alt={c.photo} label={c.photo} />
+                <ImageSlot src={`/img/case-${String(i + 1).padStart(2, "0")}.webp`} alt={c.photo} label={c.photo} />
               </div>
               <div className="p-[22px]">
                 <span className="text-[12px] font-bold text-olive">{c.label}</span>
