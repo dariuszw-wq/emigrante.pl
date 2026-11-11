@@ -166,14 +166,22 @@
     "all": "Все записи",
     "photo": "Изображение записи",
     "items": [
-        {
-          "category": "Трудовое право",
-          "date": "6 ноября 2026",
-          "title": "Выходной за 26 декабря 2026 года: дата и отпуск",
-          "excerpt": "Кто определяет выходной и что будет с запланированным отпуском? Статья на польском языке.",
-          "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-          "image": "/blog/wolne-za-swieta-planowanie.webp"
-        },
+      {
+        "category": "ZUS и взносы",
+        "date": "11 ноября 2026",
+        "title": "Добровольное больничное страхование 2027: что иностранец получит от ZUS",
+        "excerpt": "Взнос от 36,38 зл, 90 дней ожидания и связь с выплатой 800+. Статья на польском языке.",
+        "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
+        "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
+      },
+      {
+        "category": "Трудовое право",
+        "date": "6 ноября 2026",
+        "title": "Выходной за 26 декабря 2026 года: дата и отпуск",
+        "excerpt": "Кто определяет выходной и что будет с запланированным отпуском? Статья на польском языке.",
+        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
+        "image": "/blog/wolne-za-swieta-planowanie.webp"
+      },
       {
         "category": "Гражданство и побыт",
         "date": "30 окт 2026",
@@ -181,22 +189,6 @@
         "excerpt": "B2 вместо B1, гражданский тест и более долгое пребывание — проект MSWiA. Что действует сегодня и почему стоит подать заявление о признании раньше.",
         "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
         "image": "/blog/og-obywatelstwo-polskie.png"
-      },
-      {
-        "category": "Выплаты и карта побыта",
-        "date": "29 окт 2026",
-        "title": "ZUS отказал в 800+ на здоровых детей. Суды решили иначе",
-        "excerpt": "С 1 февраля 2026 г. иностранец должен подтвердить профессиональную активность. Три решения WSA показывают, где ZUS неправ и как обжаловать отказ.",
-        "href": "/blog/800-plus-cudzoziemiec-aktywnosc-zawodowa.html",
-        "image": "/blog/og-800-plus-cudzoziemcy.png"
-      },
-      {
-        "category": "Выплаты и карта побыта",
-        "date": "17 окт 2026",
-        "title": "300 злотых на ребёнка от ZUS. Положено ли иностранцу?",
-        "excerpt": "Решает основание пребывания, а не гражданство. С 1 июля 2026 г. добавилось условие легальной работы, а заявления ZUS принимает только до 30 ноября.",
-        "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
-        "image": "/blog/og-300-plus-dobry-start.png"
       }
     ],
     "read": "Читать статью"

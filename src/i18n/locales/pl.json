@@ -166,14 +166,22 @@
     "all": "Wszystkie wpisy",
     "photo": "Grafika wpisu",
     "items": [
-        {
-          "category": "Prawo pracy",
-          "date": "6 listopada 2026",
-          "title": "Wolne za 26 grudnia 2026: termin i zaplanowany urlop",
-          "excerpt": "Dzień wolny za świąteczną sobotę nie zużywa urlopu. Termin wyznacza pracodawca; 28 grudnia nie jest wolny we wszystkich firmach.",
-          "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-          "image": "/blog/wolne-za-swieta-planowanie.webp"
-        },
+      {
+        "category": "ZUS i składki",
+        "date": "11 listopada 2026",
+        "title": "Dobrowolne chorobowe 2027. Co cudzoziemiec dostanie z ZUS — i kiedy",
+        "excerpt": "Składka od 36,38 zł, 90 dni czekania i średnia z 12 miesięcy. Dlaczego przy zleceniu i własnej firmie chorobowe chroni też 800+.",
+        "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
+        "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
+      },
+      {
+        "category": "Prawo pracy",
+        "date": "6 listopada 2026",
+        "title": "Wolne za 26 grudnia 2026: termin i zaplanowany urlop",
+        "excerpt": "Dzień wolny za świąteczną sobotę nie zużywa urlopu. Termin wyznacza pracodawca; 28 grudnia nie jest wolny we wszystkich firmach.",
+        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
+        "image": "/blog/wolne-za-swieta-planowanie.webp"
+      },
       {
         "category": "Obywatelstwo i pobyt",
         "date": "30 paź 2026",
@@ -181,22 +189,6 @@
         "excerpt": "B2 zamiast B1, test obywatelski i dłuższy pobyt — projekt MSWiA. Sprawdź, co obowiązuje dziś i dlaczego warto złożyć wniosek o uznanie wcześniej.",
         "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
         "image": "/blog/og-obywatelstwo-polskie.png"
-      },
-      {
-        "category": "Świadczenia i karta pobytu",
-        "date": "29 paź 2026",
-        "title": "ZUS odmówił 800+ na zdrowe dzieci. Sądy: tak czytać przepisu nie można",
-        "excerpt": "Od 1 lutego 2026 r. cudzoziemiec musi wykazać aktywność zawodową. Trzy wyroki WSA pokazują, kiedy ZUS idzie za daleko i jak się odwołać.",
-        "href": "/blog/800-plus-cudzoziemiec-aktywnosc-zawodowa.html",
-        "image": "/blog/og-800-plus-cudzoziemcy.png"
-      },
-      {
-        "category": "Świadczenia i karta pobytu",
-        "date": "17 paź 2026",
-        "title": "300 zł na dziecko z ZUS. Czy należy się cudzoziemcowi?",
-        "excerpt": "Decyduje tytuł pobytowy, nie obywatelstwo. Od 1 lipca 2026 r. doszedł warunek legalnej pracy, a wnioski ZUS przyjmuje tylko do 30 listopada.",
-        "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
-        "image": "/blog/og-300-plus-dobry-start.png"
       }
     ],
     "read": "Czytaj artykuł"

@@ -166,14 +166,22 @@
     "all": "Todas las entradas",
     "photo": "Imagen de la entrada",
     "items": [
-        {
-          "category": "Derecho laboral",
-          "date": "6 nov 2026",
-          "title": "Descanso por el 26 de diciembre de 2026 y vacaciones",
-          "excerpt": "Quién fija el día libre y cómo afecta a las vacaciones ya solicitadas. Artículo en polaco.",
-          "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-          "image": "/blog/wolne-za-swieta-planowanie.webp"
-        },
+      {
+        "category": "ZUS y cotizaciones",
+        "date": "11 nov 2026",
+        "title": "Seguro voluntario de enfermedad 2027: qué recibe un extranjero del ZUS",
+        "excerpt": "Cotización desde 36,38 zł, 90 días de espera y su relación con la ayuda 800+. Artículo en polaco.",
+        "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
+        "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
+      },
+      {
+        "category": "Derecho laboral",
+        "date": "6 nov 2026",
+        "title": "Descanso por el 26 de diciembre de 2026 y vacaciones",
+        "excerpt": "Quién fija el día libre y cómo afecta a las vacaciones ya solicitadas. Artículo en polaco.",
+        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
+        "image": "/blog/wolne-za-swieta-planowanie.webp"
+      },
       {
         "category": "Ciudadanía y residencia",
         "date": "30 oct 2026",
@@ -181,22 +189,6 @@
         "excerpt": "B2 en vez de B1, un examen cívico y una residencia más larga: proyecto del Ministerio del Interior. Qué rige hoy y por qué conviene solicitar antes.",
         "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
         "image": "/blog/og-obywatelstwo-polskie.png"
-      },
-      {
-        "category": "Prestaciones y residencia",
-        "date": "29 oct 2026",
-        "title": "El ZUS denegó el 800+ a los hermanos sanos. Los tribunales opinan otra cosa",
-        "excerpt": "Desde el 1 de febrero de 2026 el extranjero debe acreditar actividad laboral. Tres sentencias muestran dónde se excede el ZUS y cómo recurrir.",
-        "href": "/blog/800-plus-cudzoziemiec-aktywnosc-zawodowa.html",
-        "image": "/blog/og-800-plus-cudzoziemcy.png"
-      },
-      {
-        "category": "Prestaciones y residencia",
-        "date": "17 oct 2026",
-        "title": "300 zlotys por hijo del ZUS. ¿Le corresponde a un extranjero?",
-        "excerpt": "Decide tu título de residencia, no la nacionalidad. Desde el 1 de julio de 2026 se exige trabajo legal y el ZUS admite solicitudes solo hasta el 30 de noviembre.",
-        "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
-        "image": "/blog/og-300-plus-dobry-start.png"
       }
     ],
     "read": "Leer el artículo"

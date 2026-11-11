@@ -166,14 +166,22 @@
     "all": "Усі записи",
     "photo": "Зображення запису",
     "items": [
-        {
-          "category": "Трудове право",
-          "date": "6 листопада 2026",
-          "title": "Вихідний за 26 грудня 2026 року: дата та відпустка",
-          "excerpt": "Хто визначає вихідний і що буде із запланованою відпусткою? Стаття польською мовою.",
-          "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-          "image": "/blog/wolne-za-swieta-planowanie.webp"
-        },
+      {
+        "category": "ZUS і внески",
+        "date": "11 листопада 2026",
+        "title": "Добровільне лікарняне страхування 2027: що іноземець отримає від ZUS",
+        "excerpt": "Внесок від 36,38 зл, 90 днів очікування та зв'язок із виплатою 800+. Стаття польською мовою.",
+        "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
+        "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
+      },
+      {
+        "category": "Трудове право",
+        "date": "6 листопада 2026",
+        "title": "Вихідний за 26 грудня 2026 року: дата та відпустка",
+        "excerpt": "Хто визначає вихідний і що буде із запланованою відпусткою? Стаття польською мовою.",
+        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
+        "image": "/blog/wolne-za-swieta-planowanie.webp"
+      },
       {
         "category": "Громадянство і побут",
         "date": "30 жов 2026",
@@ -181,22 +189,6 @@
         "excerpt": "B2 замість B1, громадянський тест і довше перебування — проєкт MSWiA. Що діє сьогодні і чому варто подати заяву про визнання раніше.",
         "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
         "image": "/blog/og-obywatelstwo-polskie.png"
-      },
-      {
-        "category": "Виплати і карта побиту",
-        "date": "29 жов 2026",
-        "title": "ZUS відмовив у 800+ на здорових дітей. Суди вирішили інакше",
-        "excerpt": "З 1 лютого 2026 р. іноземець мусить підтвердити професійну активність. Три рішення WSA показують, де ZUS помиляється і як оскаржити відмову.",
-        "href": "/blog/800-plus-cudzoziemiec-aktywnosc-zawodowa.html",
-        "image": "/blog/og-800-plus-cudzoziemcy.png"
-      },
-      {
-        "category": "Виплати і карта побиту",
-        "date": "17 жов 2026",
-        "title": "300 злотих на дитину від ZUS. Чи належить іноземцю?",
-        "excerpt": "Вирішує підстава перебування, а не громадянство. З 1 липня 2026 р. додалася умова легальної праці, а заяви ZUS приймає лише до 30 листопада.",
-        "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
-        "image": "/blog/og-300-plus-dobry-start.png"
       }
     ],
     "read": "Читати статтю"

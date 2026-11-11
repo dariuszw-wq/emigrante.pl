@@ -166,14 +166,22 @@
     "all": "All posts",
     "photo": "Post image",
     "items": [
-        {
-          "category": "Employment law",
-          "date": "6 Nov 2026",
-          "title": "Time off for 26 December 2026: dates and annual leave",
-          "excerpt": "Who chooses the day off and what happens to booked annual leave? Article in Polish.",
-          "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-          "image": "/blog/wolne-za-swieta-planowanie.webp"
-        },
+      {
+        "category": "ZUS and contributions",
+        "date": "11 Nov 2026",
+        "title": "Voluntary sickness insurance 2027: what a foreigner gets from ZUS",
+        "excerpt": "Contributions from PLN 36.38, a 90-day waiting period and the link to the 800+ child benefit. Article in Polish.",
+        "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
+        "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
+      },
+      {
+        "category": "Employment law",
+        "date": "6 Nov 2026",
+        "title": "Time off for 26 December 2026: dates and annual leave",
+        "excerpt": "Who chooses the day off and what happens to booked annual leave? Article in Polish.",
+        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
+        "image": "/blog/wolne-za-swieta-planowanie.webp"
+      },
       {
         "category": "Citizenship and residence",
         "date": "30 Oct 2026",
@@ -181,22 +189,6 @@
         "excerpt": "B2 instead of B1, a civic test and a longer stay — a draft by the Interior Ministry. See what applies today and why it may pay to apply sooner.",
         "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
         "image": "/blog/og-obywatelstwo-polskie.png"
-      },
-      {
-        "category": "Benefits and residence",
-        "date": "29 Oct 2026",
-        "title": "ZUS refused 800+ for the healthy siblings. The courts disagreed",
-        "excerpt": "Since 1 February 2026 foreign parents must prove paid employment. Three administrative court rulings show where ZUS goes too far and how to appeal.",
-        "href": "/blog/800-plus-cudzoziemiec-aktywnosc-zawodowa.html",
-        "image": "/blog/og-800-plus-cudzoziemcy.png"
-      },
-      {
-        "category": "Benefits and residence",
-        "date": "17 Oct 2026",
-        "title": "PLN 300 per child from ZUS. Can a foreigner claim it?",
-        "excerpt": "Your residence title decides, not your citizenship. Since 1 July 2026 a legal-work condition applies, and ZUS accepts applications only until 30 November.",
-        "href": "/blog/300-plus-dobry-start-cudzoziemcy.html",
-        "image": "/blog/og-300-plus-dobry-start.png"
       }
     ],
     "read": "Read the article"
