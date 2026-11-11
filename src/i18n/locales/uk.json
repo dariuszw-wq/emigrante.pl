@@ -167,6 +167,14 @@
     "photo": "Зображення запису",
     "items": [
       {
+        "category": "Оплати і довіреність",
+        "date": "11 лис 2026",
+        "title": "17 злотих, про які всі забувають. Гербовий збір у справах іноземців",
+        "excerpt": "Повна таблиця ставок: 440 злотих за перебування і роботу, 640 за постійне перебування, 100 за карту побиту. Хто не платить і коли довіреність безкоштовна.",
+        "href": "/blog/oplata-skarbowa-cudzoziemcy-pelnomocnictwo.html",
+        "image": "/blog/og-oplata-skarbowa-cudzoziemcy.png"
+      },
+      {
         "category": "ZUS і внески",
         "date": "11 листопада 2026",
         "title": "Добровільне лікарняне страхування 2027: що іноземець отримає від ZUS",
@@ -181,14 +189,6 @@
         "excerpt": "Хто визначає вихідний і що буде із запланованою відпусткою? Стаття польською мовою.",
         "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
         "image": "/blog/wolne-za-swieta-planowanie.webp"
-      },
-      {
-        "category": "Громадянство і побут",
-        "date": "30 жов 2026",
-        "title": "Польський паспорт на нових умовах. Що уряд готує для іноземців",
-        "excerpt": "B2 замість B1, громадянський тест і довше перебування — проєкт MSWiA. Що діє сьогодні і чому варто подати заяву про визнання раніше.",
-        "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
-        "image": "/blog/og-obywatelstwo-polskie.png"
       }
     ],
     "read": "Читати статтю"

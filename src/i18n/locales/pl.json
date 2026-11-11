@@ -167,6 +167,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Opłaty i pełnomocnictwo",
+        "date": "11 lis 2026",
+        "title": "17 zł, o których wszyscy zapominają. Opłata skarbowa w sprawach cudzoziemców",
+        "excerpt": "Pełna tabela stawek: 440 zł za pobyt i pracę, 640 zł za pobyt stały, 100 zł za kartę pobytu. Kto nie płaci wcale i kiedy pełnomocnictwo jest bezpłatne.",
+        "href": "/blog/oplata-skarbowa-cudzoziemcy-pelnomocnictwo.html",
+        "image": "/blog/og-oplata-skarbowa-cudzoziemcy.png"
+      },
+      {
         "category": "ZUS i składki",
         "date": "11 listopada 2026",
         "title": "Dobrowolne chorobowe 2027. Co cudzoziemiec dostanie z ZUS — i kiedy",
@@ -181,14 +189,6 @@
         "excerpt": "Dzień wolny za świąteczną sobotę nie zużywa urlopu. Termin wyznacza pracodawca; 28 grudnia nie jest wolny we wszystkich firmach.",
         "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
         "image": "/blog/wolne-za-swieta-planowanie.webp"
-      },
-      {
-        "category": "Obywatelstwo i pobyt",
-        "date": "30 paź 2026",
-        "title": "Polski paszport pod nowymi warunkami. Co rząd szykuje dla cudzoziemców",
-        "excerpt": "B2 zamiast B1, test obywatelski i dłuższy pobyt — projekt MSWiA. Sprawdź, co obowiązuje dziś i dlaczego warto złożyć wniosek o uznanie wcześniej.",
-        "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
-        "image": "/blog/og-obywatelstwo-polskie.png"
       }
     ],
     "read": "Czytaj artykuł"

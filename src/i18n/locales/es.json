@@ -167,6 +167,14 @@
     "photo": "Imagen de la entrada",
     "items": [
       {
+        "category": "Tasas y poder notarial",
+        "date": "11 nov 2026",
+        "title": "Los 17 eslotis que todos olvidan. El impuesto de actos en casos de extranjeros",
+        "excerpt": "Tabla completa de tasas: 440 por residencia y trabajo, 640 por residencia permanente, 100 por la tarjeta. Quién no paga nada y cuándo el poder es gratuito.",
+        "href": "/blog/oplata-skarbowa-cudzoziemcy-pelnomocnictwo.html",
+        "image": "/blog/og-oplata-skarbowa-cudzoziemcy.png"
+      },
+      {
         "category": "ZUS y cotizaciones",
         "date": "11 nov 2026",
         "title": "Seguro voluntario de enfermedad 2027: qué recibe un extranjero del ZUS",
@@ -181,14 +189,6 @@
         "excerpt": "Quién fija el día libre y cómo afecta a las vacaciones ya solicitadas. Artículo en polaco.",
         "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
         "image": "/blog/wolne-za-swieta-planowanie.webp"
-      },
-      {
-        "category": "Ciudadanía y residencia",
-        "date": "30 oct 2026",
-        "title": "El pasaporte polaco con nuevas condiciones. Lo que prepara el Gobierno",
-        "excerpt": "B2 en vez de B1, un examen cívico y una residencia más larga: proyecto del Ministerio del Interior. Qué rige hoy y por qué conviene solicitar antes.",
-        "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
-        "image": "/blog/og-obywatelstwo-polskie.png"
       }
     ],
     "read": "Leer el artículo"

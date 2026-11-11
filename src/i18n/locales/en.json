@@ -167,6 +167,14 @@
     "photo": "Post image",
     "items": [
       {
+        "category": "Fees and power of attorney",
+        "date": "11 Nov 2026",
+        "title": "The PLN 17 everyone forgets. Stamp duty in foreigners' cases",
+        "excerpt": "Full rate table: PLN 440 for a work-and-residence permit, 640 for permanent residence, 100 for the card itself. Who pays nothing and when a power of attorney is free.",
+        "href": "/blog/oplata-skarbowa-cudzoziemcy-pelnomocnictwo.html",
+        "image": "/blog/og-oplata-skarbowa-cudzoziemcy.png"
+      },
+      {
         "category": "ZUS and contributions",
         "date": "11 Nov 2026",
         "title": "Voluntary sickness insurance 2027: what a foreigner gets from ZUS",
@@ -181,14 +189,6 @@
         "excerpt": "Who chooses the day off and what happens to booked annual leave? Article in Polish.",
         "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
         "image": "/blog/wolne-za-swieta-planowanie.webp"
-      },
-      {
-        "category": "Citizenship and residence",
-        "date": "30 Oct 2026",
-        "title": "A Polish passport on new terms. What the government plans for foreigners",
-        "excerpt": "B2 instead of B1, a civic test and a longer stay — a draft by the Interior Ministry. See what applies today and why it may pay to apply sooner.",
-        "href": "/blog/obywatelstwo-polskie-zmiany-b2-test-obywatelski.html",
-        "image": "/blog/og-obywatelstwo-polskie.png"
       }
     ],
     "read": "Read the article"
