@@ -170,6 +170,14 @@
     "photo": "Post image",
     "items": [
       {
+        "category": "Labour market",
+        "date": "13 Nov 2026",
+        "title": "Your occupation is off the shortage list. What about your work permit?",
+        "excerpt": "Poland's 2027 occupational barometer names 14 shortage occupations, half as many as three years ago. We show which list actually decides your work permit.",
+        "href": "/blog/zawody-deficytowe-2027-zezwolenie-na-prace.html",
+        "image": "/blog/zawody-deficytowe-hala-produkcyjna.webp"
+      },
+      {
         "category": "Fees and power of attorney",
         "date": "11 Nov 2026",
         "title": "The PLN 17 everyone forgets. Stamp duty in foreigners' cases",
@@ -184,14 +192,6 @@
         "excerpt": "Contributions from PLN 36.38, a 90-day waiting period and the link to the 800+ child benefit. Article in Polish.",
         "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
         "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
-      },
-      {
-        "category": "Employment law",
-        "date": "6 Nov 2026",
-        "title": "Time off for 26 December 2026: dates and annual leave",
-        "excerpt": "Who chooses the day off and what happens to booked annual leave? Article in Polish.",
-        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-        "image": "/blog/wolne-za-swieta-planowanie.webp"
       }
     ],
     "read": "Read the article"

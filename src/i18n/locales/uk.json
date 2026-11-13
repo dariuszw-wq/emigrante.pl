@@ -170,6 +170,14 @@
     "photo": "Зображення запису",
     "items": [
       {
+        "category": "Ринок праці",
+        "date": "13 лис 2026",
+        "title": "Вашої професії більше немає в списку дефіцитних. Що з дозволом на роботу?",
+        "excerpt": "Барометр професій на 2027 рік називає 14 дефіцитних професій — удвічі менше, ніж три роки тому. Показуємо, який список насправді вирішує долю дозволу на роботу.",
+        "href": "/blog/zawody-deficytowe-2027-zezwolenie-na-prace.html",
+        "image": "/blog/zawody-deficytowe-hala-produkcyjna.webp"
+      },
+      {
         "category": "Оплати і довіреність",
         "date": "11 лис 2026",
         "title": "17 злотих, про які всі забувають. Гербовий збір у справах іноземців",
@@ -184,14 +192,6 @@
         "excerpt": "Внесок від 36,38 зл, 90 днів очікування та зв'язок із виплатою 800+. Стаття польською мовою.",
         "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
         "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
-      },
-      {
-        "category": "Трудове право",
-        "date": "6 листопада 2026",
-        "title": "Вихідний за 26 грудня 2026 року: дата та відпустка",
-        "excerpt": "Хто визначає вихідний і що буде із запланованою відпусткою? Стаття польською мовою.",
-        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-        "image": "/blog/wolne-za-swieta-planowanie.webp"
       }
     ],
     "read": "Читати статтю"

@@ -170,6 +170,14 @@
     "photo": "Imagen de la entrada",
     "items": [
       {
+        "category": "Mercado laboral",
+        "date": "13 nov 2026",
+        "title": "Tu profesión ya no está en la lista de escasez. ¿Y tu permiso de trabajo?",
+        "excerpt": "El barómetro de profesiones para 2027 señala 14 ocupaciones con escasez, la mitad que hace tres años. Mostramos qué lista decide de verdad tu permiso de trabajo.",
+        "href": "/blog/zawody-deficytowe-2027-zezwolenie-na-prace.html",
+        "image": "/blog/zawody-deficytowe-hala-produkcyjna.webp"
+      },
+      {
         "category": "Tasas y poder notarial",
         "date": "11 nov 2026",
         "title": "Los 17 eslotis que todos olvidan. El impuesto de actos en casos de extranjeros",
@@ -184,14 +192,6 @@
         "excerpt": "Cotización desde 36,38 zł, 90 días de espera y su relación con la ayuda 800+. Artículo en polaco.",
         "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
         "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
-      },
-      {
-        "category": "Derecho laboral",
-        "date": "6 nov 2026",
-        "title": "Descanso por el 26 de diciembre de 2026 y vacaciones",
-        "excerpt": "Quién fija el día libre y cómo afecta a las vacaciones ya solicitadas. Artículo en polaco.",
-        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-        "image": "/blog/wolne-za-swieta-planowanie.webp"
       }
     ],
     "read": "Leer el artículo"

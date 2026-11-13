@@ -170,6 +170,14 @@
     "photo": "Grafika wpisu",
     "items": [
       {
+        "category": "Rynek pracy",
+        "date": "13 lis 2026",
+        "title": "Twojego zawodu nie ma już na liście deficytowych. Co z zezwoleniem na pracę?",
+        "excerpt": "Barometr zawodów na 2027 r. wskazuje 14 zawodów — o połowę mniej niż trzy lata temu. Pokazujemy, która lista naprawdę decyduje o zezwoleniu na pracę.",
+        "href": "/blog/zawody-deficytowe-2027-zezwolenie-na-prace.html",
+        "image": "/blog/zawody-deficytowe-hala-produkcyjna.webp"
+      },
+      {
         "category": "Opłaty i pełnomocnictwo",
         "date": "11 lis 2026",
         "title": "17 zł, o których wszyscy zapominają. Opłata skarbowa w sprawach cudzoziemców",
@@ -184,14 +192,6 @@
         "excerpt": "Składka od 36,38 zł, 90 dni czekania i średnia z 12 miesięcy. Dlaczego przy zleceniu i własnej firmie chorobowe chroni też 800+.",
         "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
         "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
-      },
-      {
-        "category": "Prawo pracy",
-        "date": "6 listopada 2026",
-        "title": "Wolne za 26 grudnia 2026: termin i zaplanowany urlop",
-        "excerpt": "Dzień wolny za świąteczną sobotę nie zużywa urlopu. Termin wyznacza pracodawca; 28 grudnia nie jest wolny we wszystkich firmach.",
-        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-        "image": "/blog/wolne-za-swieta-planowanie.webp"
       }
     ],
     "read": "Czytaj artykuł"

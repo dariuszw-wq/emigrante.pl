@@ -170,6 +170,14 @@
     "photo": "Изображение записи",
     "items": [
       {
+        "category": "Рынок труда",
+        "date": "13 ноя 2026",
+        "title": "Вашей профессии больше нет в списке дефицитных. Что с разрешением на работу?",
+        "excerpt": "Барометр профессий на 2027 год называет 14 дефицитных профессий — вдвое меньше, чем три года назад. Показываем, какой список на самом деле решает судьбу разрешения.",
+        "href": "/blog/zawody-deficytowe-2027-zezwolenie-na-prace.html",
+        "image": "/blog/zawody-deficytowe-hala-produkcyjna.webp"
+      },
+      {
         "category": "Оплаты и доверенность",
         "date": "11 ноя 2026",
         "title": "17 злотых, о которых все забывают. Гербовый сбор в делах иностранцев",
@@ -184,14 +192,6 @@
         "excerpt": "Взнос от 36,38 зл, 90 дней ожидания и связь с выплатой 800+. Статья на польском языке.",
         "href": "/blog/dobrowolne-chorobowe-2027-cudzoziemiec-zus.html",
         "image": "/blog/dobrowolne-chorobowe-zus-okienko.webp"
-      },
-      {
-        "category": "Трудовое право",
-        "date": "6 ноября 2026",
-        "title": "Выходной за 26 декабря 2026 года: дата и отпуск",
-        "excerpt": "Кто определяет выходной и что будет с запланированным отпуском? Статья на польском языке.",
-        "href": "/blog/dzien-wolny-za-swieto-w-sobote-urlop.html",
-        "image": "/blog/wolne-za-swieta-planowanie.webp"
       }
     ],
     "read": "Читать статью"
