@@ -1,0 +1,9 @@
+{
+  "title": "Karta pobytu — nowe możliwości przyspieszenia sprawy",
+  "description": "Nasza kancelaria monitoruje sprawy o pobyt czasowy i pracę oraz podejmuje interwencje. Liczne wydane karty pobytu potwierdzają efekty tych działań.",
+  "slug": "karta-pobytu-przyspieszenie",
+  "publishAt": "2026-11-28T12:00:00+01:00",
+  "category": "News",
+  "imageSuggestion": "Naturalne zdjęcie konsultacji w kancelarii: prawnik i klient przy biurku z zamkniętą teczką, bez widocznych danych osobowych i dokumentów urzędowych.",
+  "editorialNote": "Komunikat na podstawie informacji właściciela kancelarii; bez twierdzeń o konkretnych zmianach prawa. Publikacja wyłącznie po polsku, nie wcześniej niż publishAt. Treść źródłowa: karta-pobytu-przyspieszenie.html; pełna strona: karta-pobytu-przyspieszenie-page.html. Przy publikacji skopiować pełną stronę do public/blog/karta-pobytu-przyspieszenie.html, dodać wpis do blog.items w pl.json z kategorią News i do sitemap.xml. CTA obsługiwane przez istniejący czat. Nie publikować źródeł, podstaw prawnych ani szczegółów interwencji. Propozycja zdjęcia jest sugestią, nie zamówieniem generowania grafiki."
+}
